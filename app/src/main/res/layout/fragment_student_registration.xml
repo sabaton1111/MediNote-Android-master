@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/register_form2"
+    tools:context="layout.StudentRegistrationFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:background="@mipmap/transparent_back"
+            android:contentDescription="@string/logo" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="textPersonName"
+            android:hint="@string/first_name_and_last_name"
+            android:layout_below="@+id/textViewStudentReg"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextStudentName" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="textPersonName"
+            android:hint="@string/school"
+            android:layout_below="@id/editTextStudentName"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextStudentSchool" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="number"
+            android:hint="@string/student_class"
+            android:layout_below="@id/editTextStudentSchool"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextStudentClass" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="text"
+            android:hint="@string/teacher_student"
+            android:layout_below="@id/editTextStudentClass"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextTeachersClass" />
+
+
+        <Button
+            android:text="@string/register"
+            android:background="#1C9FB5"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRegisterStudent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editTextTeachersClass"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="25dp"/>
+
+
+        <TextView
+            android:id="@+id/textViewStudentReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/student_registration" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.PrescriptionFragment"
+    android:background="@mipmap/pills2">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:background="@mipmap/transparent_back"
+            android:contentDescription="@string/logo" />
+
+        <TextView
+            android:id="@+id/textViewPrescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:text="@string/prescription"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editTextStudentNamePrescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPrescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="@string/first_name_and_last_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
+        <EditText
+            android:id="@+id/editTextStudentAddressPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextStudentNamePrescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
+        <EditText
+            android:id="@+id/editTextDoctorNamePrescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextStudentAddressPrescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/from_doctor_s_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
+
+        <EditText
+            android:id="@+id/editTextDrugOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDoctorNamePrescription"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/drug"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPlus"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/editTextDrugOne"
+            android:background="@android:color/white"
+            android:scaleType="fitXY"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@mipmap/plus_button" />
+
+        <EditText
+            android:id="@+id/editTextDrugTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDrugOne"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:visibility="invisible"
+            android:hint="@string/drug"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPlusTwo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:scaleType="fitXY"
+            android:layout_below="@id/imageButtonPlus"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@mipmap/plus_button" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+</RelativeLayout>

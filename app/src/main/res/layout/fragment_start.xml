@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.StartFragment"
+    android:background="@mipmap/register_form2">
+
+
+
+    <ImageView
+        android:contentDescription=""
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/transparent_back"
+        android:layout_marginTop="65dp"
+        android:id="@+id/imageViewLogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:text="@string/next"
+        android:background="#1C9FB5"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNext"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="30dp"
+        android:layout_alignRight="@+id/buttonNext"
+        android:layout_alignEnd="@+id/buttonNext"
+        android:layout_alignLeft="@+id/buttonNext"
+        android:layout_alignStart="@+id/buttonNext">
+
+        <RadioButton
+            android:id="@+id/radioButtonDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/doctor" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMedicineSister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/medicine_sister" />
+
+        <RadioButton
+            android:id="@+id/radioButtonStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/student" />
+
+        <RadioButton
+            android:id="@+id/radioTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/teacher" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/registration_type" />
+
+</RelativeLayout>
