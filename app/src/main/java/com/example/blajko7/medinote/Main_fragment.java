@@ -38,9 +38,9 @@ public class Main_fragment extends Fragment {
         latest_tab.setContent(R.id.tab1);
         latest_tab.setIndicator("Note");
         th.addTab(latest_tab);
-        latest_tab = th.newTabSpec("Prescription");
+        latest_tab = th.newTabSpec("Certificate");
         latest_tab.setContent(R.id.tab2);
-        latest_tab.setIndicator("Prescription");
+        latest_tab.setIndicator("Certificate");
         th.addTab(latest_tab);
         latest_tab = th.newTabSpec("MedicalCheck");
         latest_tab.setContent(R.id.tab3);

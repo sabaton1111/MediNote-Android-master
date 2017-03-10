@@ -23,10 +23,14 @@
     <string name="age">Възраст</string>
     <string name="check">Провери</string>
     <string name="check_note">Провери бележка</string>
+    <string name="clinically_healthy">Клинично здрав</string>
     <string name="create">Създай</string>
     <string name="create_note">Създай бележка</string>
     <string name="create_note1">Създаване на бележка</string>
+    <string name="created_on">Създадена на</string>
     <string name="date">Дата</string>
+    <string name="date_of_birth">Дата на раждане</string>
+    <string name="doc_reg">Регистрация на лекар</string>
     <string name="doctor">Лекар</string>
     <string name="doctor_s_name">Име</string>
     <string name="don_t_have_an_account">Нямате акаунт?</string>
@@ -37,9 +41,12 @@
     <string name="first_name_and_last_name">Име и фамилия</string>
     <string name="from_doctor_s_name">Издадена то (Име на лекаря)</string>
     <string name="health_facility">Здравно заведение</string>
+    <string name="height">Ръст</string>
     <string name="last_name">Фамилия</string>
     <string name="login">Вход</string>
     <string name="logo">Лого</string>
+    <string name="medical_certificate">Медицинско свидетелство</string>
+    <string name="medical_check">Профилактичен преглед</string>
     <string name="medicine_sister">Медицинска сестра</string>
     <string name="medicine_sister_registration">Регистрация на медицинска сестра</string>
     <string name="name">Име</string>
@@ -64,6 +71,8 @@
     <string name="teacher_registration">Регистрация на учител</string>
     <string name="teacher_s_class">Класен ръководител на</string>
     <string name="teacher_student">Класен ръководител</string>
+    <string name="tour_body">Обиколка на тялото</string>
     <string name="uin">УИН</string>
     <string name="username">Потребителско име</string>
+    <string name="weight">Тегло</string>
 </resources>

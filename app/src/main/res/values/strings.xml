@@ -56,5 +56,6 @@
     <string name="medical_check">Medical check</string>
     <string name="height">Height</string>
     <string name="tour_body">Tour of the body</string>
-    <string name="weight">Weight</string>>
+    <string name="weight">Weight</string>
+    <string name="doc_reg">Doctor registration</string>>
 </resources>

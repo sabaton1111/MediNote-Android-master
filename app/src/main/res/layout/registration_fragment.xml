@@ -18,10 +18,20 @@
             android:layout_height="100dp"
             android:background="@mipmap/transparent_back"
             android:layout_marginTop="65dp"
-            android:id="@+id/imageView"
+            android:id="@+id/medinote_logo"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
-        <!-- app:srcCompat="@mipmap/medinote_logo" -->
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/medinote_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/doc_reg" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,8 +39,8 @@
             android:textColor="@color/colorPrimaryDark"
             android:textColorHint="@color/hintTextColor"
             android:inputType="textPersonName"
-            android:hint="@string/doctor_s_name"
-            android:layout_below="@id/imageView"
+            android:hint="@string/first_name_and_last_name"
+            android:layout_below="@id/textView11"
             android:layout_marginTop="30dp"
             android:ems="10"
             android:layout_marginLeft="20dp"
@@ -113,6 +123,8 @@
             android:layout_marginRight="25dp"
             android:layout_marginLeft="25dp"
             android:layout_marginBottom="30dp"/>
+
+
 
     </RelativeLayout>
 

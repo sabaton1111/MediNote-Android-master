@@ -1,0 +1,4 @@
+#Fri Mar 10 13:53:58 EET 2017
+base.0=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

@@ -9,4 +9,451 @@
     android:orientation="vertical">
 
 
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:contentDescription="logo"
+                                android:layout_width="220dp"
+                                android:layout_height="100dp"
+                                android:background="@mipmap/transparent_back"
+                                android:layout_marginTop="65dp"
+                                android:id="@+id/imageViewLogo"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+
+
+                            <TextView
+                                android:text="@string/create_note1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageViewLogo"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="30dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:id="@+id/textView"
+                                android:textSize="24sp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextHealthFacilityCreate"
+                                android:layout_below="@+id/textView"
+                                android:layout_marginTop="14dp"
+                                android:hint="@string/health_facility"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:layout_marginRight="50dp" />
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextStudentNameCreate"
+                                android:hint="@string/student_s_first_and_last_name"
+                                android:layout_below="@+id/editTextHealthFacilityCreate"
+                                android:textColorHint="@color/hintTextColor"
+                                android:layout_marginTop="14dp"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:layout_marginRight="50dp"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextAddressCreate"
+                                android:layout_below="@+id/editTextStudentNameCreate"
+                                android:layout_marginTop="14dp"
+                                android:hint="@string/address"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:layout_marginRight="50dp"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextAgeCreate"
+                                android:layout_below="@+id/editTextAddressCreate"
+                                android:layout_marginTop="14dp"
+                                android:hint="@string/age"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:textColorHint="@color/hintTextColor"
+                                android:layout_marginRight="50dp"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextNeedsCreate"
+                                android:layout_below="@+id/editTextAgeCreate"
+                                android:textColorHint="@color/hintTextColor"
+                                android:layout_marginTop="14dp"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:hint="@string/needs"
+                                android:layout_marginRight="50dp"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextServeCreateNote"
+                                android:layout_below="@+id/editTextNeedsCreate"
+                                android:layout_marginTop="14dp"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:hint="@string/serve_to"
+                                android:textColorHint="@color/hintTextColor"
+                                android:layout_marginRight="50dp"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextDoctorCreateNote"
+                                android:layout_below="@+id/editTextServeCreateNote"
+                                android:layout_marginTop="14dp"
+                                android:textColorHint="@color/hintTextColor"
+                                android:layout_marginLeft="50dp"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:hint="@string/doctor"
+                                android:layout_marginRight="50dp"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextDataCreateNote"
+                                android:layout_below="@+id/editTextDoctorCreateNote"
+                                android:layout_marginTop="14dp"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:hint="@string/date"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:layout_marginRight="50dp"
+                                android:layout_marginBottom="20dp" />
+
+                            <Button
+                                android:text="@string/create"
+                                android:background="#1C9FB5"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="40dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/buttonCreateNote"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_below="@+id/editTextDataCreateNote"
+                                android:layout_marginBottom="30dp" />
+                        </RelativeLayout>
+
+
+
+
+
+                    </ScrollView>
+                </RelativeLayout>
+                <!-- Медицинско удостоверение -->
+                <RelativeLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:contentDescription="logo"
+                                android:layout_width="220dp"
+                                android:layout_height="100dp"
+                                android:background="@mipmap/transparent_back"
+                                android:layout_marginTop="65dp"
+                                android:id="@+id/imageViewLogo1"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                            <TextView
+                                android:text="@string/medical_certificate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageViewLogo1"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="30dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:id="@+id/textView10"
+                                android:textSize="24sp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextNameCertificate"
+                                android:layout_below="@+id/textView10"
+                                android:layout_marginTop="18dp"
+                                android:hint="@string/first_name_and_last_name"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginRight="50dp"
+                                android:layout_alignLeft="@+id/editTextBirthCertificate"
+                                android:layout_alignStart="@+id/editTextBirthCertificate" />
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextBirthCertificate"
+                                android:layout_below="@+id/editTextNameCertificate"
+                                android:inputType="date"
+                                android:layout_marginTop="15dp"
+                                android:hint="@string/date_of_birth"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginRight="50dp"
+                                android:layout_alignLeft="@+id/editTextCreationDateCertificate"
+                                android:layout_alignStart="@+id/editTextCreationDateCertificate" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextCreationDateCertificate"
+                                android:layout_below="@+id/editTextBirthCertificate"
+                                android:inputType="date"
+                                android:layout_marginTop="15dp"
+                                android:hint="@string/created_on"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginRight="50dp"
+                                android:layout_alignLeft="@+id/textView1"
+                                android:layout_alignStart="@+id/textView1" />
+                            <TextView
+                                android:text="@string/clinically_healthy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/editTextCreationDateCertificate"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="18dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:id="@+id/textView1"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="50dp"/>
+
+                            <CheckBox
+                                android:id="@+id/checkBox"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_toEndOf="@+id/textView1"
+                                android:layout_toRightOf="@+id/textView1"
+                                android:buttonTint="@color/colorPrimaryDark"
+                                android:layout_below="@+id/editTextCreationDateCertificate" />
+
+                            <Button
+                                android:text="@string/create"
+                                android:background="#1C9FB5"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="40dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/buttonCreateMedicalCertificate"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_below="@+id/textView1"
+                                android:layout_marginBottom="30dp" />
+
+                        </RelativeLayout>
+                    </ScrollView>
+
+                </RelativeLayout>
+                <!-- Профилактичен преглед -->
+                <RelativeLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:contentDescription="logo"
+                                android:layout_width="220dp"
+                                android:layout_height="100dp"
+                                android:background="@mipmap/transparent_back"
+                                android:layout_marginTop="65dp"
+                                android:id="@+id/imageViewLogo2"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+                            <TextView
+                                android:text="@string/medical_check"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageViewLogo2"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="30dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:id="@+id/textView11"
+                                android:textSize="24sp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextNameMedicalCheck"
+                                android:layout_below="@+id/textView11"
+                                android:layout_marginTop="18dp"
+                                android:hint="@string/first_name_and_last_name"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginEnd="50dp"
+                                android:layout_marginStart="50dp"
+                                android:layout_centerHorizontal="true"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextDateMedicalCheck"
+                                android:inputType="date"
+                                android:layout_below="@+id/editTextNameMedicalCheck"
+                                android:layout_marginTop="14dp"
+                                android:hint="@string/created_on"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginEnd="50dp"
+                                android:layout_marginStart="50dp"
+                                android:layout_centerHorizontal="true"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextHeightMedicalCheck"
+                                android:layout_below="@+id/editTextDateMedicalCheck"
+                                android:layout_marginTop="18dp"
+                                android:inputType="numberDecimal"
+                                android:hint="@string/height"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginEnd="50dp"
+                                android:layout_marginStart="50dp"
+                                android:layout_centerHorizontal="true"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextTourMedicalCheck"
+                                android:layout_below="@+id/editTextHeightMedicalCheck"
+                                android:layout_marginTop="18dp"
+                                android:inputType="numberDecimal"
+                                android:hint="@string/tour_body"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginEnd="50dp"
+                                android:layout_marginStart="50dp"
+                                android:layout_centerHorizontal="true"/>
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editTextWeightMedicalCheck"
+                                android:layout_below="@+id/editTextTourMedicalCheck"
+                                android:layout_marginTop="18dp"
+                                android:inputType="numberDecimal"
+                                android:hint="@string/weight"
+                                android:textColorHint="@color/hintTextColor"
+                                android:theme="@style/MyEditTextTheme"
+                                android:ems="10"
+                                android:layout_marginEnd="50dp"
+                                android:layout_marginStart="50dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <Button
+                                android:text="@string/create"
+                                android:background="#1C9FB5"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="40dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/buttonCreateMedicalCheck"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_below="@+id/editTextWeightMedicalCheck"
+                                android:layout_marginBottom="30dp" />
+                        </RelativeLayout>
+                    </ScrollView>
+                </RelativeLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
 </RelativeLayout>

@@ -53,4 +53,5 @@
     <string name="height">Ръст</string>
     <string name="tour_body">Обиколка на тялото</string>
     <string name="weight">Тегло</string>
+    <string name="doc_reg">Регистрация на лекар</string>
 </resources>

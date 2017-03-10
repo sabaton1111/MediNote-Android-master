@@ -58,5 +58,9 @@
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/doctor_writing3.jpg",
         "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/doctor_writing3.jpg"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/medinote_logo.png",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/medinote_logo.png"
     }
 ]
