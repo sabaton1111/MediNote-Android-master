@@ -8,12 +8,12 @@
         "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/fragment_medical_check_list.xml",
-        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/fragment_medical_check_list.xml"
-    },
-    {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/fragment_medical_check_list.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/fragment_medical_check_list.xml"
     },
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/note_details_fragment.xml",

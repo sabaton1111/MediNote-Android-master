@@ -57,5 +57,8 @@
     <string name="height">Height</string>
     <string name="tour_body">Tour of the body</string>
     <string name="weight">Weight</string>
-    <string name="doc_reg">Doctor registration</string>>
+    <string name="doc_reg">Doctor registration</string>
+    <string name="password_reg">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="egn">EGN</string>>
 </resources>

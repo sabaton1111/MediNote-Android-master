@@ -54,11 +54,13 @@
     <string name="next">Напред</string>
     <string name="note">Бележка</string>
     <string name="password">Парола</string>
+    <string name="password_reg">Парола</string>
     <string name="position">Позиция</string>
     <string name="prescription">Рецепта</string>
     <string name="register">Регистрация</string>
     <string name="register_here">Регистрирайте се тук</string>
     <string name="registration_type">Вид регистрация</string>
+    <string name="repeat_password">Повторете паролата</string>
     <string name="school">Училище</string>
     <string msgid="146198913615257606" name="search_menu_title">"Търсене"</string>
     <string name="serve_to">Да послужи пред</string>

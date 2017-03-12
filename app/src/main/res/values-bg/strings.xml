@@ -54,4 +54,7 @@
     <string name="tour_body">Обиколка на тялото</string>
     <string name="weight">Тегло</string>
     <string name="doc_reg">Регистрация на лекар</string>
+    <string name="password_reg">Парола</string>
+    <string name="repeat_password">Повторете паролата</string>
+    <string name="egn">ЕГН</string>
 </resources>

@@ -47,7 +47,36 @@
             android:layout_marginRight="20dp"
             android:textAlignment="center"
             android:id="@+id/editTextDoctorName" />
-
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="textPassword"
+            android:hint="@string/password_reg"
+            android:layout_below="@id/editTextDoctorName"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextDoctorPassword" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="textPassword"
+            android:hint="@string/repeat_password"
+            android:layout_below="@id/editTextDoctorPassword"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextDoctorPasswordRepeat" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +90,7 @@
             android:layout_marginTop="15dp"
             android:hint="@string/uin"
             android:textAlignment="center"
-            android:layout_below="@+id/editTextDoctorName"
+            android:layout_below="@+id/editTextDoctorPasswordRepeat"
             android:id="@+id/editTextUIN" />
 
         <EditText
