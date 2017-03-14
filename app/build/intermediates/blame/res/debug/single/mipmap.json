@@ -4,6 +4,22 @@
         "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/register_form2.jpg"
     },
     {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/logo_medinote.png",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/logo_medinote.png"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/mail_icon.png",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/mail_icon.png"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/information_icon.png",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/information_icon.png"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/home_icon.png",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/home_icon.png"
+    },
+    {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/skullicon.png",
         "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/skullicon.png"
     },
@@ -34,6 +50,10 @@
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/pills2.jpeg",
         "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/pills2.jpeg"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/shutdown_icon.png",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/mipmap/shutdown_icon.png"
     },
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/mipmap/doctor_writing2.png",

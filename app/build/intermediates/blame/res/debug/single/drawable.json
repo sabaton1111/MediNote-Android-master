@@ -32,6 +32,10 @@
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/drawable/abc_text_cursor_material.xml"
     },

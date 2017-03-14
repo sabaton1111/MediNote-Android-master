@@ -1,4 +1,4 @@
-#Fri Mar 10 14:18:01 EET 2017
+#Tue Mar 14 17:42:37 EET 2017
 base.0=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2641dd0bf630169cf341be81691db4f9b9ffcd58
 renamed.1=classes2.dex
 renamed.0=classes.dex

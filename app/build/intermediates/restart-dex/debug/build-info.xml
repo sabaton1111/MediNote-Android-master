@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
     build-mode="FULL"
-    density="xhdpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489148596247"
+    timestamp="1489506118894"
     token="6324442781518948088"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -23,6 +23,9 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/home/dimitar/Downloads/MediNote-Android-master/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
@@ -56,14 +59,14 @@
     <artifact
         location="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="/home/dimitar/Downloads/MediNote-Android-master/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1489148596247"
+        timestamp="1489506118894"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/dimitar/Downloads/MediNote-Android-master/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -97,9 +100,6 @@
         <artifact
             location="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/dimitar/Downloads/MediNote-Android-master/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

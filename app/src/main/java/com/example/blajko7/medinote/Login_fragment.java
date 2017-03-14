@@ -2,6 +2,7 @@ package com.example.blajko7.medinote;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,7 +34,9 @@ public class Login_fragment extends Fragment {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        ChangeFragment(new Create_fragment(),true);
+                        Intent intent = new Intent(getActivity(), Navigation.class);
+                        startActivity(intent);
+                       // ChangeFragment(new Create_fragment(),true);
                     }
                 }
         );

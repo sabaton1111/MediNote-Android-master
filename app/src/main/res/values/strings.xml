@@ -60,5 +60,20 @@
     <string name="doc_reg">Doctor registration</string>
     <string name="password_reg">Password</string>
     <string name="repeat_password">Repeat password</string>
-    <string name="egn">EGN</string>>
+    <string name="egn">EGN</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="options">Options</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="information">Information</string>
+    <string name="home">Home</string>
+    <string name="logout">Log Out</string>
+    <string name="subject">Subject</string>
+    <string name="enter_title">Enter the title</string>
+    <string name="write_email">Write your email</string>
+    <string name="send">Send</string>>
 </resources>

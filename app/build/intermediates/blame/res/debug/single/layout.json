@@ -32,6 +32,10 @@
         "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/fragment_help.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/fragment_help.xml"
+    },
+    {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -148,6 +152,10 @@
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/fragment_contact_us.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/fragment_contact_us.xml"
+    },
+    {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/layout/notification_template_part_time.xml"
     },
@@ -168,8 +176,16 @@
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/activity_navigation.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/activity_navigation.xml"
+    },
+    {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/content_navigation.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/content_navigation.xml"
     },
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
@@ -198,6 +214,10 @@
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/nav_header_navigation.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/nav_header_navigation.xml"
     },
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
@@ -230,6 +250,10 @@
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/app_bar_navigation.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/layout/app_bar_navigation.xml"
     },
     {
         "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",

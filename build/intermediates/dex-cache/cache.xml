@@ -2,139 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/1ea22ca4dba19a0e43e51a32663f99126c731ffe/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a621af22472627bc50446391cc1c073d21f51244/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/9401310aecc26ffb0d0de793b8f8c73988867415/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_600aa8c2a91de9434f870f9b0f6a7a232a846385/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/5a4872a0a8de41626803a80f6f95b17f55a0e123/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f56ce706053153d95791952a26133c9c92b6f718/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/e525b41666b401ef74db72202425cff6f31fd02a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_feef0720b5d7e580e60c61c98d8776739181cca5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/dimitar/.android/build-cache/02d25000e4332dff0ea1baef3b0940ffca5f1680/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_019717eb62963b47a017227bd521f2a5a26d4fc8/classes.dex" />
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_019717eb62963b47a017227bd521f2a5a26d4fc8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/ec73dba4efb702a6bd34f935bb2ecc77559587ee/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/dimitar/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9877f48b71467b659b7e340d66a62d62efe97dae/classes.dex" />
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_506cc04343e88ea6ea32ab45f4dd61b781ca9c61.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ff234f14654ad1f66597ec3b4ebdeaec38e70cbb">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1e2f72d44c6ac5c6e53b1c4d52a8096cd21cc1e4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/dimitar/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_87c6cf9d70539999e83792484533aeec45b7d1df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c748e505b550471131eb09bf3423f5b375990bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/b6ca29f51641175d8a6d7f580f9dd5fc7f8db1ef/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e51c2f662bb72419632af5192553c37e33890a99">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf943cbf0cc7fadf7cc9c48bd4859a5b27063a0c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/dimitar/.android/build-cache/e53a5b53597786290bc2809dc7a02e105ab22c28/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0e5bb51c3b9d65e12e60133c21e471f798c75a7/classes.dex" />
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_f0e5bb51c3b9d65e12e60133c21e471f798c75a7.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_6c748e505b550471131eb09bf3423f5b375990bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4fc094132c7caf562edde09659d547eeb7d474e/classes.dex" />
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_e4fc094132c7caf562edde09659d547eeb7d474e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/dimitar/.android/build-cache/cf7c71b0c3d55dbb01950e74a722ec6b223a0e1e/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/e48ed8d0ded2c463de2e868f713e189ffb6cf0b9/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6e94b047972ec8f51d44a693886616c83503ba7/classes.dex" />
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_b39b0432a0b6992fe635bf306d88ba3fe400b720.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/dimitar/.android/build-cache/79c1649d965e16e6ee84bf26c901ec6d483985a7/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd50190551cc066464d1d5042f5b319e73bff8e5/classes.dex" />
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_dd50190551cc066464d1d5042f5b319e73bff8e5.jar" />
     </item>
     <item
         is-multidex="true"
         jar="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2641dd0bf630169cf341be81691db4f9b9ffcd58/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/cf7c71b0c3d55dbb01950e74a722ec6b223a0e1e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_a6e94b047972ec8f51d44a693886616c83503ba7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/1ea22ca4dba19a0e43e51a32663f99126c731ffe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_a621af22472627bc50446391cc1c073d21f51244.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/ec73dba4efb702a6bd34f935bb2ecc77559587ee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_9877f48b71467b659b7e340d66a62d62efe97dae.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e14c1a04deaa910ea6f597e0bd11b47ac3274417">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1e2f72d44c6ac5c6e53b1c4d52a8096cd21cc1e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/9401310aecc26ffb0d0de793b8f8c73988867415/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_600aa8c2a91de9434f870f9b0f6a7a232a846385.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/5a4872a0a8de41626803a80f6f95b17f55a0e123/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_f56ce706053153d95791952a26133c9c92b6f718.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_87c6cf9d70539999e83792484533aeec45b7d1df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/e525b41666b401ef74db72202425cff6f31fd02a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_feef0720b5d7e580e60c61c98d8776739181cca5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dimitar/.android/build-cache/b6ca29f51641175d8a6d7f580f9dd5fc7f8db1ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/pre-dexed/debug/classes_bf943cbf0cc7fadf7cc9c48bd4859a5b27063a0c.jar" />
     </item>
 
 </items>

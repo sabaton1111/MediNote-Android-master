@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:textColor="@color/colorPrimaryDark">
+
+        <item
+            android:id="@+id/nav_home"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/home_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_inf"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/information_icon"
+            android:title="@string/information" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/mail_icon"
+            android:title="@string/contact_us" />
+    </group>
+
+    <item android:title=" ">
+        <menu>
+            <item
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/nav_logout"
+                android:tint="@color/colorPrimaryDark"
+                android:icon="@mipmap/close_icon"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>
