@@ -2,19 +2,17 @@ package com.example.blajko7.medinote;
 
 import android.app.Activity;
 import android.app.Fragment;
-import android.app.FragmentManager;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
+import android.support.annotation.Nullable;
 import android.app.FragmentTransaction;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 public class Main_fragment extends Fragment {
+    private Activity mActivity;
 
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
@@ -28,9 +26,16 @@ public class Main_fragment extends Fragment {
     }
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mActivity = getActivity();
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.main_fragment, container, false);
 
+        Toast.makeText(mActivity, ApplicationUser.getAccessToken().getAuthorization(), Toast.LENGTH_SHORT).show();
 
         TabHost th = (TabHost)view.findViewById(R.id.tabHost);
         th.setup();

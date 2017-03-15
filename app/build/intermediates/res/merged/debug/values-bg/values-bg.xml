@@ -35,6 +35,7 @@
     <string name="doctor_s_name">Име</string>
     <string name="don_t_have_an_account">Нямате акаунт?</string>
     <string name="drug">Лекарство</string>
+    <string name="egn">ЕГН</string>
     <string name="email">Имейл</string>
     <string name="enter_student_s_nin">Въведете ЕГН на ученика</string>
     <string name="first_name">Име</string>

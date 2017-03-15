@@ -60,5 +60,8 @@
     <string name="doc_reg">Doctor registration</string>
     <string name="password_reg">Password</string>
     <string name="repeat_password">Repeat password</string>
-    <string name="egn">EGN</string>>
+    <string name="egn">EGN</string>
+    <string name="token_type">tokenType</string>
+    <string name="access_token">accessToken</string>
+
 </resources>

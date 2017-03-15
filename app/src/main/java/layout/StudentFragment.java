@@ -15,6 +15,7 @@ import com.example.blajko7.medinote.R;
 
 public class StudentFragment extends Fragment {
 
+
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
