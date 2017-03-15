@@ -57,4 +57,18 @@
     <string name="password_reg">Парола</string>
     <string name="repeat_password">Повторете паролата</string>
     <string name="egn">ЕГН</string>
+    <string name="options">Опции</string>
+    <string name="contact_us">Свържете се с нас</string>
+    <string name="information">Информация</string>
+    <string name="home">Начало</string>
+    <string name="logout">Изход</string>
+    <string name="subject">Тема</string>
+    <string name="enter_title">Въведете темата</string>
+    <string name="write_email">Имейл</string>
+    <string name="send">Изпрати</string>
+    <string name="about_app">За приложението</string>
+    <string name="about_us">За нас</string>
+    <string name="about_us_description">Име: Мартин Дачев\nBack-End разработчик\nИмейл: martin.dachev98@gmail.com\n\n\nИме: Димитър Величков\nUI разработчик\nИмейл:dimiter41@gmail.com</string>
+    <string name="about_app_description">MediNote е приложение, чрез което лекари могат да създават извинителни бележки, медицински свидетелства и профилактични прегледи. След като бъдат създадени, учениците могат да ги видят от техните профили.</string>
+    >
 </resources>

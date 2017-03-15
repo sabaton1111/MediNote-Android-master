@@ -1,66 +1,58 @@
 [
     {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\eb8981d125f20295cab7cb8064cea80e4c86b1e8\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\f6e0e94111ff2eadbc29103dbd2cb37d84d7d642\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\c7de3e2361cbd4484682a953cb72fa52f8690b2d\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable-v21/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\f6e0e94111ff2eadbc29103dbd2cb37d84d7d642\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable-v21/ic_menu_manage.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\4d6f50fe291632996c8503197ef086422ead6e27\\output\\res\\drawable-v21\\avd_hide_password.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable-v21/ic_menu_share.xml"
     },
     {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\eb8981d125f20295cab7cb8064cea80e4c86b1e8\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\4d6f50fe291632996c8503197ef086422ead6e27\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\f6e0e94111ff2eadbc29103dbd2cb37d84d7d642\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\4d6f50fe291632996c8503197ef086422ead6e27\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\c7de3e2361cbd4484682a953cb72fa52f8690b2d\\output\\res\\drawable-v21\\avd_hide_password.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/drawable-v21/avd_show_password.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\f6e0e94111ff2eadbc29103dbd2cb37d84d7d642\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\c7de3e2361cbd4484682a953cb72fa52f8690b2d\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/dimitar/.android/build-cache/4d6f50fe291632996c8503197ef086422ead6e27/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\home\\dimitar\\.android\\build-cache\\4d6f50fe291632996c8503197ef086422ead6e27\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/dimitar/.android/build-cache/f6e0e94111ff2eadbc29103dbd2cb37d84d7d642/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\eb8981d125f20295cab7cb8064cea80e4c86b1e8\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\eb8981d125f20295cab7cb8064cea80e4c86b1e8\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\WWW\\.android\\build-cache\\c7de3e2361cbd4484682a953cb72fa52f8690b2d\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "merged": "/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
+        "source": "/home/dimitar/Downloads/MediNote-Android-master/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
     }
 ]

@@ -24,6 +24,7 @@
     <string name="check">Провери</string>
     <string name="check_note">Провери бележка</string>
     <string name="clinically_healthy">Клинично здрав</string>
+    <string name="contact_us">Свържете се с нас</string>
     <string name="create">Създай</string>
     <string name="create_note">Създай бележка</string>
     <string name="create_note1">Създаване на бележка</string>
@@ -43,9 +44,12 @@
     <string name="from_doctor_s_name">Издадена то (Име на лекаря)</string>
     <string name="health_facility">Здравно заведение</string>
     <string name="height">Ръст</string>
+    <string name="home">Начало</string>
+    <string name="information">Информация</string>
     <string name="last_name">Фамилия</string>
     <string name="login">Вход</string>
     <string name="logo">Лого</string>
+    <string name="logout">Изход</string>
     <string name="medical_certificate">Медицинско свидетелство</string>
     <string name="medical_check">Профилактичен преглед</string>
     <string name="medicine_sister">Медицинска сестра</string>
@@ -54,6 +58,7 @@
     <string name="needs">Нуждае се от</string>
     <string name="next">Напред</string>
     <string name="note">Бележка</string>
+    <string name="options">Опции</string>
     <string name="password">Парола</string>
     <string name="password_reg">Парола</string>
     <string name="position">Позиция</string>
@@ -70,6 +75,7 @@
     <string name="student_class">Клас</string>
     <string name="student_registration">Регистрация на ученик</string>
     <string name="student_s_first_and_last_name">Име и фамилия на ученика</string>
+    <string name="subject">Тема</string>
     <string name="teacher">Учител</string>
     <string name="teacher_registration">Регистрация на учител</string>
     <string name="teacher_s_class">Класен ръководител на</string>

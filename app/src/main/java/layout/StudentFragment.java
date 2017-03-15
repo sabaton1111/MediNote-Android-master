@@ -32,7 +32,7 @@ public class StudentFragment extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.student_fragment, container, false);
 
-        TabHost th = (TabHost)view.findViewById(R.id.tabHost);
+        TabHost th = (TabHost)view.findViewById(R.id.tabHostStudent);
         th.setup();
         TabHost.TabSpec latest_tab = th.newTabSpec("Note");
         latest_tab.setContent(R.id.tab1);
