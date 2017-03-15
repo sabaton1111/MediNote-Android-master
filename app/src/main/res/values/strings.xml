@@ -75,5 +75,10 @@
     <string name="subject">Subject</string>
     <string name="enter_title">Enter the title</string>
     <string name="write_email">Write your email</string>
-    <string name="send">Send</string>>
+    <string name="send">Send</string>
+    <string name="about_app">About application</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_description">Name: Martin Dachev\nBack-End developer\nEmail: martin.dachev98@gmail.com\n\n\nName: Dimitar Velichkov\nUI developer\nEmail:dimiter41@gmail.com</string>
+    <string name="about_app_description">MediNote is application where doctors can create notes for the students, medical certificates and medical checks. Once they are created, the students can see them from their profiles.</string>
+    >
 </resources>
