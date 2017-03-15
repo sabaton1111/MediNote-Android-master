@@ -61,6 +61,10 @@
     <string name="password_reg">Password</string>
     <string name="repeat_password">Repeat password</string>
     <string name="egn">EGN</string>
+    <string name="token_type">tokenType</string>
+    <string name="access_token">accessToken</string>
+
+    <string name="egn">EGN</string>
     <string name="title_activity_navigation">Navigation</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

@@ -3,15 +3,13 @@ package com.example.blajko7.medinote;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.AttributeSet;
-import android.view.View;
-
-import layout.StartFragment;
 
 public class MainActivity extends AppCompatActivity {
 
+    SharedPreferences mSharedPreferences;
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
@@ -27,7 +25,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ChangeFragment(new Login_fragment(), true);
+
+        initializeSharedPreferences();
     }
 
+    private void initializeSharedPreferences()
+    {
+        mSharedPreferences = getPreferences(Context.MODE_PRIVATE);
+        String tokenType = mSharedPreferences.getString(getString(R.string.token_type), null);
+        String accessToken = mSharedPreferences.getString(getString(R.string.access_token), null);
+        if (tokenType == null || accessToken == null)
+        {
+            ChangeFragment(new Login_fragment(), false);
+        }
+        else
+        {
+            ApplicationUser.setAccessToken(new OAuthToken(accessToken, tokenType));
+            ChangeFragment(new Main_fragment(), false);
+        }
+    }
 }
