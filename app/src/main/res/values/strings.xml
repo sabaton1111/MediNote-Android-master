@@ -63,8 +63,6 @@
     <string name="egn">EGN</string>
     <string name="token_type">tokenType</string>
     <string name="access_token">accessToken</string>
-
-    <string name="egn">EGN</string>
     <string name="title_activity_navigation">Navigation</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -85,5 +83,8 @@
     <string name="about_us_description">Name: Martin Dachev\nBack-End developer\nEmail: martin.dachev98@gmail.com\n\n\nName: Dimitar Velichkov\nUI developer\nEmail:dimiter41@gmail.com</string>
     <string name="about_app_description">MediNote is application where doctors can create notes for the students, medical certificates and medical checks. Once they are created, the students can see them from their profiles.</string>
     <string name="nin">NIN</string>
+    <string name="made_by">Doctor:</string>
+    <string name="valid">Valid from/to:</string>
+    <string name="serve_to1">Serve to:</string>
     >
 </resources>
