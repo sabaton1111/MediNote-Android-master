@@ -1,9 +1,6 @@
 package layout;
 
-import android.content.Context;
-import android.net.Uri;
 import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
-import com.example.blajko7.medinote.R;
+import com.skullybunny.medinoteservices.medinote.R;
 
 
 public class PrescriptionFragment extends Fragment {

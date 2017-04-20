@@ -1,7 +1,5 @@
 package layout;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.FragmentTransaction;
 import android.app.Fragment;
@@ -10,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.blajko7.medinote.R;
+import com.skullybunny.medinoteservices.medinote.R;
 
 
 public class TeacherRegistrationFragment extends Fragment {

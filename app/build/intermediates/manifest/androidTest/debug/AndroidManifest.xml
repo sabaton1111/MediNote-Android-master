@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.blajko7.medinote.test">
+    package="com.skullybunny.medinoteservices.medinote.test">
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.blajko7.medinote"
+                     android:targetPackage="com.skullybunny.medinoteservices.medinote"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.blajko7.medinote"/>
+                     android:label="Tests for com.skullybunny.medinoteservices.medinote"/>
 </manifest>

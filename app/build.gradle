@@ -5,11 +5,11 @@ android {
     buildToolsVersion '25.0.2'
 
     defaultConfig {
-        applicationId "com.example.blajko7.medinote"
+        applicationId "com.skullybunny.medinoteservices.medinote"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "0.3"
     }
     buildTypes {
         release {
@@ -22,12 +22,12 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    //compile 'com.parse.bolts:bolts-tasks:1.4.0'
+    //compile 'com.parse.bolts:bolts-applinks:1.4.0'
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support:support-v4:25.2.0'
     compile 'com.android.support:design:25.2.0'
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
-    //compile 'com.parse.bolts:bolts-tasks:1.4.0'
-    //compile 'com.parse.bolts:bolts-applinks:1.4.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }

@@ -1,78 +1,88 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:3:5-56
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:7:5-20:19
-MERGED from [com.android.support:design:25.2.0] C:\Users\WWW\.android\build-cache\c7de3e2361cbd4484682a953cb72fa52f8690b2d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\WWW\.android\build-cache\eb8981d125f20295cab7cb8064cea80e4c86b1e8\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\WWW\.android\build-cache\3ed0de788278541c7866b38966331d953748f6ca\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\WWW\.android\build-cache\0651394a32b347e96260a917e8cc1f2a56880658\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\WWW\.android\build-cache\ac6c29b203abe57f5e17f0014bdbc76e56834408\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\WWW\.android\build-cache\ec9afd96be0c24c4848f864c99e42d94127ec266\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\WWW\.android\build-cache\2169f2a2d945752a06b7e6e4a8e241b8f221da06\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\WWW\.android\build-cache\9ad68e67da0f2e5a39db573ce981472c451a0679\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\WWW\.android\build-cache\36e5be42e27c3fc2bcfc2fa3167347a59d0d8ba0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\WWW\.android\build-cache\996b9bfae961dfeb2899596bc15eb94763886e76\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\WWW\.android\build-cache\b9935329b6f043d98b8734f5a864c7f4dbfcbe6b\output\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.android.support:design:25.2.0] C:\Users\Martin\.android\build-cache\a12e10154f1a4b724f22807891472570e28423bf\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Martin\.android\build-cache\6af25eac767656bdb6d216a7f61e57a11d4fb767\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Martin\.android\build-cache\42d32c3f3aa4715400b1c41d83b9d448694a3b66\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Martin\.android\build-cache\d4f3b5ca4896e095e07ecb64c29d8b232b008c91\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Martin\.android\build-cache\780bb4c3907e983672b863155442d497c6cd79f3\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Martin\.android\build-cache\9d8303ef39ac6b44553132f3882aef21804af568\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Martin\.android\build-cache\2ae27f48b698f1678f078a5406282a843db042a8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Martin\.android\build-cache\1c1dd63efcd6673066c50effb8828dc105d8f1a7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Martin\.android\build-cache\6cb2b8fe741b8c0e9dd2b2f9aba689133bf8bc42\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Martin\.android\build-cache\cbfd23291adc49bb4c3316436afe58a90838d119\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Martin\.android\build-cache\3ecc16f74e7e8e1735ef7dc0ba8dccc0967033b8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Martin\.android\build-cache\22b2bc5e0f7c20f95aa6ec02fe174a02a9ead43a\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:11:9-35
 	android:allowBackup
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:9:9-37
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:9:9-45
 	android:theme
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:12:9-40
-activity#com.example.blajko7.medinote.MainActivity
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:13:9-19:20
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.skullybunny.medinoteservices.medinote.MainActivity
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:13:19-88
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.skullybunny.medinoteservices.medinote.Navigation
+ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:20:9-23:47
+	android:label
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:22:13-30
+	android:theme
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml:21:13-80
 uses-sdk
-INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.2.0] C:\Users\WWW\.android\build-cache\c7de3e2361cbd4484682a953cb72fa52f8690b2d\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\WWW\.android\build-cache\eb8981d125f20295cab7cb8064cea80e4c86b1e8\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\WWW\.android\build-cache\3ed0de788278541c7866b38966331d953748f6ca\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\WWW\.android\build-cache\0651394a32b347e96260a917e8cc1f2a56880658\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\WWW\.android\build-cache\a3305c12adaa7af79820a642a919e9d6d6c288a2\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] C:\Users\WWW\.android\build-cache\ac6c29b203abe57f5e17f0014bdbc76e56834408\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\WWW\.android\build-cache\ec9afd96be0c24c4848f864c99e42d94127ec266\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\WWW\.android\build-cache\2169f2a2d945752a06b7e6e4a8e241b8f221da06\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\WWW\.android\build-cache\9ad68e67da0f2e5a39db573ce981472c451a0679\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\WWW\.android\build-cache\36e5be42e27c3fc2bcfc2fa3167347a59d0d8ba0\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\WWW\.android\build-cache\996b9bfae961dfeb2899596bc15eb94763886e76\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\WWW\.android\build-cache\b9935329b6f043d98b8734f5a864c7f4dbfcbe6b\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.2.0] C:\Users\Martin\.android\build-cache\a12e10154f1a4b724f22807891472570e28423bf\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Martin\.android\build-cache\6af25eac767656bdb6d216a7f61e57a11d4fb767\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Martin\.android\build-cache\42d32c3f3aa4715400b1c41d83b9d448694a3b66\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Martin\.android\build-cache\d4f3b5ca4896e095e07ecb64c29d8b232b008c91\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Martin\.android\build-cache\180a89d3d18d367f5f15e64b37067dbff5817eca\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Martin\.android\build-cache\780bb4c3907e983672b863155442d497c6cd79f3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Martin\.android\build-cache\9d8303ef39ac6b44553132f3882aef21804af568\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Martin\.android\build-cache\2ae27f48b698f1678f078a5406282a843db042a8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Martin\.android\build-cache\1c1dd63efcd6673066c50effb8828dc105d8f1a7\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Martin\.android\build-cache\6cb2b8fe741b8c0e9dd2b2f9aba689133bf8bc42\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Martin\.android\build-cache\cbfd23291adc49bb4c3316436afe58a90838d119\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Martin\.android\build-cache\3ecc16f74e7e8e1735ef7dc0ba8dccc0967033b8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Martin\.android\build-cache\22b2bc5e0f7c20f95aa6ec02fe174a02a9ead43a\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] C:\Users\WWW\.android\build-cache\c7de3e2361cbd4484682a953cb72fa52f8690b2d\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\Martin\.android\build-cache\a12e10154f1a4b724f22807891472570e28423bf\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\WWW\StudioProjects\MediNote-Android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Martin\AndroidStudioProjects\MediNote-Production-Release\app\src\main\AndroidManifest.xml

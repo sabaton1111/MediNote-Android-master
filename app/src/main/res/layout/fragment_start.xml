@@ -34,10 +34,8 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
         android:layout_below="@+id/textView9"
-        android:layout_marginTop="30dp"
-        android:layout_alignRight="@+id/buttonNext"
-        android:layout_alignEnd="@+id/buttonNext"
         android:layout_alignLeft="@+id/buttonNext"
         android:layout_alignStart="@+id/buttonNext">
 
@@ -54,18 +52,6 @@
             android:text="@string/doctor" />
 
         <RadioButton
-            android:id="@+id/radioButtonMedicineSister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp"
-            android:buttonTint="@color/colorPrimary"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/medicine_sister" />
-
-        <RadioButton
             android:id="@+id/radioButtonStudent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -77,7 +63,7 @@
             android:buttonTint="@color/colorPrimary"
             android:text="@string/student" />
 
-        <RadioButton
+        <!--<RadioButton
             android:id="@+id/radioTeacher"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,7 +73,7 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp"
             android:buttonTint="@color/colorPrimary"
-            android:text="@string/teacher" />
+            android:text="@string/teacher" />-->
     </RadioGroup>
 
     <TextView

@@ -8,7 +8,10 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent">
+    android:background="@android:color/transparent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,98 +41,55 @@
             android:layout_marginRight="20dp"
             android:textAlignment="center"
             android:id="@+id/editTextStudentName" />
+
         <EditText
+            android:id="@+id/editTextStudentAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:inputType="textPassword"
-            android:hint="@string/password_reg"
             android:layout_below="@id/editTextStudentName"
-            android:layout_marginTop="13dp"
-            android:ems="10"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="@string/age"
+            android:inputType="textPassword|number"
             android:textAlignment="center"
-            android:id="@+id/editTextStudentPassword" />
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
+        <EditText
+            android:id="@+id/editTextStudentAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextStudentAge"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="textPostalAddress"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/hintTextColor"
+            android:theme="@style/MyEditTextTheme" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:inputType="textPassword"
-            android:hint="@string/repeat_password"
-            android:layout_below="@id/editTextStudentPassword"
-            android:layout_marginTop="13dp"
-            android:ems="10"
+            android:layout_below="@id/editTextStudentAddress"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:textAlignment="center"
-            android:id="@+id/editTextStudentPasswordRepeat" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="@string/egn"
             android:inputType="text|number"
             android:maxLength="10"
-            android:hint="@string/egn"
-            android:layout_below="@id/editTextStudentPasswordRepeat"
-            android:layout_marginTop="13dp"
-            android:ems="10"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:textAlignment="center"
-            android:id="@+id/editTextStudentEGN" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/MyEditTextTheme"
             android:textColor="@color/colorPrimaryDark"
             android:textColorHint="@color/hintTextColor"
-            android:inputType="textPersonName"
-            android:hint="@string/school"
-            android:layout_below="@id/editTextStudentEGN"
-            android:layout_marginTop="13dp"
-            android:ems="10"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textAlignment="center"
-            android:id="@+id/editTextStudentSchool" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:inputType="number"
-            android:hint="@string/student_class"
-            android:layout_below="@id/editTextStudentSchool"
-            android:layout_marginTop="13dp"
-            android:ems="10"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textAlignment="center"
-            android:id="@+id/editTextStudentClass" />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:inputType="text"
-            android:hint="@string/teacher_student"
-            android:layout_below="@id/editTextStudentClass"
-            android:layout_marginTop="13dp"
-            android:ems="10"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textAlignment="center"
-            android:id="@+id/editTextTeachersClass" />
-
+            android:id="@+id/editTextStudentNIN" />
 
         <Button
             android:text="@string/register"
@@ -140,11 +100,11 @@
             android:id="@+id/buttonRegisterStudent"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/editTextTeachersClass"
+            android:layout_below="@+id/editTextStudentNIN"
             android:layout_marginTop="15dp"
             android:layout_marginStart="25dp"
             android:layout_marginBottom="20dp"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="25dp" />
 
 
         <TextView

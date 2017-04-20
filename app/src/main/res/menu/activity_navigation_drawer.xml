@@ -10,6 +10,26 @@
             android:icon="@mipmap/home_icon"
             android:title="@string/home" />
         <item
+            android:id="@+id/nav_register_student"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/home_icon"
+            android:title="@string/register_student" />
+        <item
+            android:id="@+id/nav_register_doctor"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/home_icon"
+            android:title="@string/register_doctor" />
+        <item
+            android:id="@+id/nav_check_medicalnote_by_men"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/home_icon"
+            android:title="@string/check_medicalnote_by_men" />
+        <item
+            android:id="@+id/nav_create_medicalnote"
+            android:textColor="@color/colorPrimaryDark"
+            android:icon="@mipmap/home_icon"
+            android:title="@string/create_medical_note" />
+        <item
             android:id="@+id/nav_inf"
             android:textColor="@color/colorPrimaryDark"
             android:icon="@mipmap/information_icon"
@@ -18,7 +38,7 @@
             android:id="@+id/nav_contact_us"
             android:textColor="@color/colorPrimaryDark"
             android:icon="@mipmap/mail_icon"
-            android:title="@string/contact_us" />
+        android:title="@string/contact_us" />
     </group>
 
     <item android:title=" ">
@@ -31,5 +51,4 @@
                 android:title="@string/logout" />
         </menu>
     </item>
-
 </menu>

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\home\\dimitar\\Downloads\\MediNote-Android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "C:\\Users\\Martin\\AndroidStudioProjects\\MediNote-Production-Release\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\home\\dimitar\\.android\\build-cache\\f6e0e94111ff2eadbc29103dbd2cb37d84d7d642\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 112,
-                        "endOffset": 163
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\WWW\\StudioProjects\\MediNote-Android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 112,
-                    "endOffset": 163
-                },
-                "from": {
-                    "file": "C:\\Users\\WWW\\.android\\build-cache\\eb8981d125f20295cab7cb8064cea80e4c86b1e8\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

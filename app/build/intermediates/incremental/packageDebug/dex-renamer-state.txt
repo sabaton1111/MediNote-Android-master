@@ -1,7 +1,0 @@
-#Tue Mar 14 17:42:37 EET 2017
-base.0=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2641dd0bf630169cf341be81691db4f9b9ffcd58
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1e2f72d44c6ac5c6e53b1c4d52a8096cd21cc1e4/classes.dex
-base.1=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1e2f72d44c6ac5c6e53b1c4d52a8096cd21cc1e4
-file.0=/home/dimitar/Downloads/MediNote-Android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2641dd0bf630169cf341be81691db4f9b9ffcd58/classes.dex

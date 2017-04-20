@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Enter_NIN">Въведете ЕГН на ученика</string>
+    <string name="MEN">Номер на амбулаторен лист</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Придвижване към „Начало“"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"„%1$s“ – %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"„%1$s“, „%2$s“ – %3$s"</string>
@@ -19,18 +21,25 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Споделяне със: %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свиване"</string>
+    <string name="about_app">За приложението</string>
+    <string name="about_app_description">MediNote е приложение, чрез което лекари могат да създават извинителни бележки, медицински свидетелства и профилактични прегледи. След като бъдат създадени, учениците могат да ги видят от техните профили.</string>
+    <string name="about_us">За нас</string>
+    <string name="about_us_description">Име: Мартин Дачев\nBack-End разработчик\nИмейл: martin.dachev98@gmail.com\n\n\nИме: Димитър Величков\nUI разработчик\nИмейл:dimiter41@gmail.com</string>
     <string name="address">Адрес</string>
     <string name="age">Възраст</string>
     <string name="check">Провери</string>
+    <string name="check_medicalnote_by_men">Проверяване на медицинска бележка чрез МЕН</string>
     <string name="check_note">Провери бележка</string>
     <string name="clinically_healthy">Клинично здрав</string>
     <string name="contact_us">Свържете се с нас</string>
     <string name="create">Създай</string>
+    <string name="create_medical_note">Създаване на медицинска бележка</string>
     <string name="create_note">Създай бележка</string>
     <string name="create_note1">Създаване на бележка</string>
     <string name="created_on">Създадена на</string>
     <string name="date">Дата</string>
     <string name="date_of_birth">Дата на раждане</string>
+    <string name="diagnose">Диагноза</string>
     <string name="doc_reg">Регистрация на лекар</string>
     <string name="doctor">Лекар</string>
     <string name="doctor_s_name">Име</string>
@@ -38,7 +47,9 @@
     <string name="drug">Лекарство</string>
     <string name="egn">ЕГН</string>
     <string name="email">Имейл</string>
+    <string name="enter_medical_note_men">Въведете номер на бележката (МЕН)</string>
     <string name="enter_student_s_nin">Въведете ЕГН на ученика</string>
+    <string name="enter_title">Въведете темата</string>
     <string name="first_name">Име</string>
     <string name="first_name_and_last_name">Име и фамилия</string>
     <string name="from_doctor_s_name">Издадена то (Име на лекаря)</string>
@@ -61,14 +72,18 @@
     <string name="options">Опции</string>
     <string name="password">Парола</string>
     <string name="password_reg">Парола</string>
+    <string name="phone_number">Телефонен номер</string>
     <string name="position">Позиция</string>
     <string name="prescription">Рецепта</string>
     <string name="register">Регистрация</string>
+    <string name="register_doctor">Регистриране на доктор</string>
     <string name="register_here">Регистрирайте се тук</string>
+    <string name="register_student">Регистриране на ученик</string>
     <string name="registration_type">Вид регистрация</string>
     <string name="repeat_password">Повторете паролата</string>
     <string name="school">Училище</string>
     <string msgid="146198913615257606" name="search_menu_title">"Търсене"</string>
+    <string name="send">Изпрати</string>
     <string name="serve_to">Да послужи пред</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="student">Ученик</string>
@@ -84,4 +99,5 @@
     <string name="uin">УИН</string>
     <string name="username">Потребителско име</string>
     <string name="weight">Тегло</string>
+    <string name="write_email">Имейл</string>
 </resources>
