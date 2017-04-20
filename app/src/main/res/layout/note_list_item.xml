@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/colorPrimary">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="1dp">
+
+
+
+</RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@mipmap/doctor_icon"
+        android:layout_alignBottom="@+id/textViewDoctor"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@mipmap/calendar_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@mipmap/school_icon"
+        android:layout_alignTop="@+id/textViewServeTo"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_alignStart="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/valid"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18.04.2017-21.04.2017"
+        android:id="@+id/textViewDateNote"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/textViewDate"
+        android:layout_alignBottom="@+id/textViewDate"
+        android:layout_toRightOf="@+id/textViewDate"
+        android:layout_toEndOf="@+id/textViewDate"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewServeTo"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/serve_to1"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textViewDate"
+        android:layout_alignStart="@+id/textViewDate" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewServeToNote"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="PMG"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textViewServeTo"
+        android:layout_toEndOf="@+id/textViewServeTo"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/made_by"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textViewDoctor"
+        android:layout_below="@+id/textViewServeTo"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/textViewServeTo"
+        android:layout_alignStart="@+id/textViewServeTo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDoctorNote"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Gosho Pesho"
+        android:layout_alignBaseline="@+id/textViewDoctor"
+        android:layout_alignBottom="@+id/textViewDoctor"
+        android:layout_toRightOf="@+id/textViewDoctor"
+        android:layout_toEndOf="@+id/textViewDoctor"
+        android:layout_marginStart="10dp"/>
+</RelativeLayout>

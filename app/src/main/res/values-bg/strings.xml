@@ -79,4 +79,9 @@
     <string name="enter_medical_note_men">Въведете номер на бележката (МЕН)</string>
     <string name="diagnose">Диагноза</string>
     <string name="MEN">Номер на амбулаторен лист</string>
+    <string name="nin">ЕГН</string>
+    <string name="made_by">Издадена от:</string>
+    <string name="valid">Валидна от/до:</string>
+    <string name="serve_to1">Да послужи пред:</string>
+    >
 </resources>
