@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:background="@android:color/transparent"
+            android:background="@android:color/white"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
                 <RelativeLayout
@@ -24,7 +24,7 @@
                         android:contentDescription="@string/logo"
                         android:layout_width="220dp"
                         android:layout_height="100dp"
-                        android:background="@mipmap/transparent_back"
+                        android:background="@mipmap/medinote_logo_new"
                         android:layout_marginTop="65dp"
                         android:id="@+id/imageViewLogo"
                         android:layout_alignParentTop="true"
@@ -33,8 +33,9 @@
 
                     <TextView
                         android:layout_below="@+id/imageViewLogo"
-                        android:text="@string/note"
+                        android:text="Date"
                         android:textSize="24sp"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorPrimaryDark"
@@ -49,8 +50,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorPrimaryDark"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp"
                         android:id="@+id/textView" />
 
                     <TextView
@@ -72,7 +73,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textViewHealthFacility"
                         android:textColor="@color/colorPrimaryDark"
-                        android:layout_marginStart="30dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
                         android:id="@+id/textView10" />
                     <TextView
@@ -94,7 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textViewName"
                         android:textColor="@color/colorPrimaryDark"
-                        android:layout_marginStart="30dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
                         android:id="@+id/textView3" />
                     <TextView
@@ -116,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_below="@+id/textViewAddress"
-                        android:layout_marginStart="30dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
                         android:id="@+id/textView4" />
                     <TextView
@@ -138,7 +139,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_below="@+id/textViewAge"
-                        android:layout_marginStart="30dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
                         android:id="@+id/textView5" />
                     <TextView
@@ -160,7 +161,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_below="@+id/textViewNeeds"
-                        android:layout_marginStart="30dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
                         android:id="@+id/textView6" />
 
@@ -183,7 +184,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textViewServe"
-                        android:layout_marginStart="30dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
                         android:id="@+id/textView7" />
                     <TextView
@@ -196,31 +197,9 @@
                         android:textStyle="bold"
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
+                        android:layout_marginBottom="30dp"
                         android:textSize="18sp"/>
 
-                    <TextView
-                        android:textSize="20sp"
-                        android:text="@string/date"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/textViewDoctor"
-                        android:layout_marginStart="30dp"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:layout_marginTop="30dp"
-                        android:id="@+id/textView8" />
-
-                    <TextView
-                        android:text="TextView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textViewData"
-                        android:textColor="@color/colorPrimary"
-                        android:textStyle="bold"
-                        android:layout_below="@+id/textView8"
-                        android:layout_marginTop="18dp"
-                        android:layout_marginStart="50dp"
-                        android:layout_marginBottom="20dp"
-                        android:textSize="18sp"/>
                 </RelativeLayout>
 
 

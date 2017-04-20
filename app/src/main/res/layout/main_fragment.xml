@@ -5,7 +5,7 @@
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/register_form2"
+    android:background="@mipmap/back_check1"
     android:orientation="vertical">
 
 
@@ -46,29 +46,21 @@
                         android:layout_alignParentStart="true">
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:contentDescription="logo"
-                                android:layout_width="220dp"
-                                android:layout_height="100dp"
-                                android:background="@mipmap/transparent_back"
-                                android:layout_marginTop="65dp"
-                                android:id="@+id/imageViewLogo"
-                                android:layout_alignParentTop="true"
-                                android:layout_centerHorizontal="true" />
+                            android:layout_height="match_parent"
+                            >
 
 
                             <TextView
                                 android:text="@string/create_note1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_below="@+id/imageViewLogo"
-                                android:layout_marginStart="30dp"
-                                android:layout_marginTop="30dp"
-                                android:textColor="@color/colorPrimaryDark"
+                                android:layout_width="match_parent"
                                 android:id="@+id/textView"
-                                android:textSize="24sp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="80dp"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
                                 android:layout_centerHorizontal="true"/>
 
                             <EditText
@@ -76,7 +68,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/editTextHealthFacilityCreate"
                                 android:layout_below="@+id/textView"
-                                android:layout_marginTop="14dp"
+                                android:layout_marginTop="110dp"
                                 android:hint="@string/health_facility"
                                 android:textColorHint="@color/hintTextColor"
                                 android:theme="@style/MyEditTextTheme"
@@ -191,6 +183,7 @@
                                 android:layout_marginRight="25dp"
                                 android:layout_marginLeft="25dp"
                                 android:layout_below="@+id/editTextDataCreateNote"
+                                android:textSize="18sp"
                                 android:layout_marginBottom="30dp" />
                         </RelativeLayout>
 
@@ -217,33 +210,26 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
-                            <ImageView
-                                android:contentDescription="logo"
-                                android:layout_width="220dp"
-                                android:layout_height="100dp"
-                                android:background="@mipmap/transparent_back"
-                                android:layout_marginTop="65dp"
-                                android:id="@+id/imageViewLogo1"
-                                android:layout_alignParentTop="true"
-                                android:layout_centerHorizontal="true" />
+
                             <TextView
                                 android:text="@string/medical_certificate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@+id/imageViewLogo1"
                                 android:layout_marginStart="30dp"
-                                android:layout_marginTop="30dp"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:id="@+id/textView10"
-                                android:textSize="24sp"
-                                android:layout_centerHorizontal="true"/>
+                                android:layout_marginTop="80dp"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/textView10" />
 
                             <EditText
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/editTextNameCertificate"
                                 android:layout_below="@+id/textView10"
-                                android:layout_marginTop="18dp"
+                                android:layout_marginTop="110dp"
                                 android:hint="@string/first_name_and_last_name"
                                 android:textColorHint="@color/hintTextColor"
                                 android:theme="@style/MyEditTextTheme"
@@ -316,6 +302,7 @@
                                 android:layout_marginRight="25dp"
                                 android:layout_marginLeft="25dp"
                                 android:layout_below="@+id/textView1"
+                                android:textSize="18sp"
                                 android:layout_marginBottom="30dp" />
 
                         </RelativeLayout>
@@ -337,33 +324,25 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
-                            <ImageView
-                                android:contentDescription="logo"
-                                android:layout_width="220dp"
-                                android:layout_height="100dp"
-                                android:background="@mipmap/transparent_back"
-                                android:layout_marginTop="65dp"
-                                android:id="@+id/imageViewLogo2"
-                                android:layout_alignParentTop="true"
-                                android:layout_centerHorizontal="true" />
                             <TextView
                                 android:text="@string/medical_check"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@+id/imageViewLogo2"
                                 android:layout_marginStart="30dp"
-                                android:layout_marginTop="30dp"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:id="@+id/textView11"
-                                android:textSize="24sp"
-                                android:layout_centerHorizontal="true"/>
+                                android:layout_marginTop="80dp"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/textView11" />
 
                             <EditText
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/editTextNameMedicalCheck"
                                 android:layout_below="@+id/textView11"
-                                android:layout_marginTop="18dp"
+                                android:layout_marginTop="110dp"
                                 android:hint="@string/first_name_and_last_name"
                                 android:textColorHint="@color/hintTextColor"
                                 android:theme="@style/MyEditTextTheme"
@@ -447,6 +426,7 @@
                                 android:layout_marginRight="25dp"
                                 android:layout_marginLeft="25dp"
                                 android:layout_below="@+id/editTextWeightMedicalCheck"
+                                android:textSize="18sp"
                                 android:layout_marginBottom="30dp" />
                         </RelativeLayout>
                     </ScrollView>
