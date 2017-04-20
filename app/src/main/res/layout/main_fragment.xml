@@ -48,7 +48,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             >
+                            <ImageView
+                                android:id="@+id/background_one"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="-300dp"
+                                android:layout_height="match_parent"
+                                android:src="@mipmap/back_check1"/>
 
+                            <ImageView
+
+                                android:id="@+id/background_two"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:src="@mipmap/white_back"/>
 
                             <TextView
                                 android:text="@string/create_note1"
@@ -68,7 +80,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/editTextHealthFacilityCreate"
                                 android:layout_below="@+id/textView"
-                                android:layout_marginTop="110dp"
+                                android:layout_marginTop="150dp"
                                 android:hint="@string/health_facility"
                                 android:textColorHint="@color/hintTextColor"
                                 android:theme="@style/MyEditTextTheme"

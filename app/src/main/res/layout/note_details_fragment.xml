@@ -1,47 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/linear_layout"
     android:layout_height="match_parent"
-    android:background="@mipmap/check_back">
+    android:background="#FFFFFF">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:background="@android:color/transparent"
-        android:layout_height="match_parent">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:background="@android:color/white"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:background="@android:color/transparent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:contentDescription="@string/logo"
-                        android:layout_width="220dp"
-                        android:layout_height="100dp"
-                        android:background="@mipmap/medinote_logo_new"
-                        android:layout_marginTop="65dp"
-                        android:id="@+id/imageViewLogo"
-                        android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true" />
+                        android:id="@+id/background_one"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="-290dp"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/back_check1"/>
 
+                    <ImageView
 
+                        android:id="@+id/background_two"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@mipmap/white_back"/>
                     <TextView
-                        android:layout_below="@+id/imageViewLogo"
-                        android:text="Date"
-                        android:textSize="24sp"
-                        android:textStyle="bold"
+
+                        android:text="Note details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="30dp"
-                        android:id="@+id/textViewTextText" />
+                        android:id="@+id/textViewTextText"
+                        android:textAlignment="center"
+                        android:layout_marginTop="110dp"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:layout_centerHorizontal="true"/>
 
                     <TextView
                         android:layout_below="@+id/textViewTextText"
@@ -51,7 +48,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="45dp"
+                        android:layout_marginTop="150dp"
                         android:id="@+id/textView" />
 
                     <TextView
@@ -197,9 +194,30 @@
                         android:textStyle="bold"
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
+
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:text="@string/date"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewDoctor"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView169" />
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewDate"
+                        android:layout_below="@+id/textView169"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginStart="50dp"
                         android:layout_marginBottom="30dp"
                         android:textSize="18sp"/>
-
                 </RelativeLayout>
 
 
@@ -207,5 +225,4 @@
 
 
         </ScrollView>
-    </RelativeLayout>
 </LinearLayout>
