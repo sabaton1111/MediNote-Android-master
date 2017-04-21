@@ -83,5 +83,8 @@
     <string name="made_by">Издадена от:</string>
     <string name="valid">Валидна от/до:</string>
     <string name="serve_to1">Да послужи пред:</string>
+    <string name="details">Детайли</string>
+    <string name="doctors_nin">ЕГН на лекар</string>
+    <string name="students_nin">ЕГН на ученика</string>
     >
 </resources>

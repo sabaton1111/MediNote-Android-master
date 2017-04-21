@@ -45,6 +45,7 @@ public class Note_details_fragment extends Fragment {
         fillMedicalNoteData();
 
 
+
         return view;
     }
 
