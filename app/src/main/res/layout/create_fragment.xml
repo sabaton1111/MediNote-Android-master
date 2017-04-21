@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/check_back">
+    android:background="@android:color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,28 +17,26 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
                 <ImageView
-                    android:contentDescription="logo"
-                    android:layout_width="220dp"
-                    android:layout_height="100dp"
-                    android:background="@mipmap/medinote_logo_new"
-                    android:layout_marginTop="65dp"
-                    android:id="@+id/imageViewLogo"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:id="@+id/background_one"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="-150dp"
+                    android:src="@mipmap/blue"
+                    android:layout_height="wrap_content"
+                    />
 
 
                 <TextView
                     android:text="@string/create_note1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/imageViewLogo"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="30dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginTop="80dp"
+                    android:textColor="@android:color/white"
                     android:id="@+id/textView"
                     android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
                     android:layout_centerHorizontal="true"/>
 
                 <EditText
@@ -46,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextHealthFacilityCreate"
                     android:layout_below="@+id/textView"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="180dp"
                     android:hint="@string/health_facility"
                     android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
@@ -160,7 +158,7 @@
                     android:id="@+id/button"
                     android:layout_marginRight="25dp"
                     android:layout_marginLeft="25dp"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:layout_below="@+id/editTextDataCreateNote"
                     android:layout_marginBottom="30dp" />
             </RelativeLayout>

@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/check_back">
+    android:background="@mipmap/back_check1">
 
 
     <TextView
@@ -14,11 +14,12 @@
         android:text="@string/check_note"
         android:id="@+id/enter_nin"
         android:textAlignment="center"
-        android:textSize="40sp"
-        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
         android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="100dp" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -34,11 +35,11 @@
             android:id="@+id/check_men_editbox"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="120dp"
             android:hint="@string/enter_medical_note_men"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textColorHint="@color/hintTextColor"
             android:theme="@style/MyEditTextTheme"
             />
@@ -49,6 +50,7 @@
             android:text="@string/check"
             android:id="@+id/check_button"
             android:background="#1C9FB5"
+            android:textSize="18sp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="55dp"
             android:layout_marginStart="25dp"

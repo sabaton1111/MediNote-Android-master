@@ -38,7 +38,7 @@ public class Main_fragment extends Fragment {
         View view = inflater.inflate(R.layout.main_fragment, container, false);
 
         //Toast.makeText(mActivity, ApplicationUser.getToken().getAuthorization(), Toast.LENGTH_SHORT).show();
-
+/*
         TabHost th = (TabHost)view.findViewById(R.id.tabHost);
         th.setup();
         TabHost.TabSpec latest_tab = th.newTabSpec("Note");
@@ -54,27 +54,7 @@ public class Main_fragment extends Fragment {
         latest_tab.setIndicator("MedicalCheck");
         th.addTab(latest_tab);
 
-
-
-
-//        final ImageView backgroundOne = (ImageView) view.findViewById(R.id.background_one);
-//        final ImageView backgroundTwo = (ImageView) view.findViewById(R.id.background_two);
-//
-//        final ValueAnimator animator = ValueAnimator.ofFloat(0.0f, 1.0f);
-//        animator.setRepeatCount(ValueAnimator.INFINITE);
-//        animator.setInterpolator(new LinearInterpolator());
-//        animator.setDuration(10000L);
-//        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-//            @Override
-//            public void onAnimationUpdate(ValueAnimator animation) {
-//                final float progress = (float) animation.getAnimatedValue();
-//                final float width = backgroundOne.getWidth();
-//                final float translationX = width * progress;
-//                backgroundOne.setTranslationX(translationX);
-//                backgroundTwo.setTranslationX(translationX - width);
-//            }
-//        });
-//        animator.start();
+*/
           return view;
     }
 }
