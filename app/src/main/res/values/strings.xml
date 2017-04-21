@@ -97,5 +97,6 @@
     <string name="made_by">Doctor:</string>
     <string name="valid">Valid from/to:</string>
     <string name="serve_to1">Serve to:</string>
+    <string name="details">Note details</string>
     >
 </resources>
