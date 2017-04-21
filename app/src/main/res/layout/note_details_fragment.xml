@@ -17,7 +17,7 @@
                     <ImageView
                         android:id="@+id/background_one"
                         android:layout_width="match_parent"
-                        android:layout_marginTop="-290dp"
+                        android:layout_marginTop="-310dp"
                         android:layout_height="match_parent"
                         android:src="@mipmap/back_check1"/>
 
@@ -39,7 +39,14 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"
                         android:layout_centerHorizontal="true"/>
-
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewHealthFacility"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:layout_below="@+id/textViewTextText"
                         android:text="@string/health_facility"
@@ -62,13 +69,51 @@
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
                         android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewMEN"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
+                    <TextView
+                        android:layout_below="@+id/textViewHealthFacility"
+                        android:text="@string/address"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textViewNew" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewAddress"
+                        android:layout_below="@+id/textViewNew"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginStart="50dp"
+                        android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewAddress"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:id="@+id/textViewMENStatic"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/MEN"
                         android:textSize="20sp"
-                        android:layout_below="@id/textViewHealthFacility"
+                        android:layout_below="@id/textViewAddress"
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="30dp"
@@ -85,6 +130,14 @@
                         android:layout_marginStart="50dp"
                         android:layout_marginTop="18dp"
                         android:textStyle="bold"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewName"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:text="@string/name"
                         android:textSize="20sp"
@@ -106,6 +159,14 @@
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
                         android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewDiagnose"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
 
                     <TextView
                         android:text="@string/diagnose"
@@ -128,6 +189,14 @@
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
                         android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewAge"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
 
                     <TextView
                         android:text="@string/age"
@@ -150,7 +219,14 @@
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
                         android:textSize="18sp"/>
-
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewNeeds"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:textSize="20sp"
                         android:text="@string/needs"
@@ -172,7 +248,14 @@
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
                         android:textSize="18sp"/>
-
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewServe"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:textSize="20sp"
                         android:text="@string/serve_to"
@@ -195,7 +278,14 @@
                         android:layout_marginTop="18dp"
                         android:layout_marginStart="50dp"
                         android:textSize="18sp"/>
-
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewDoctor"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:text="@string/doctor"
                         android:textSize="20sp"
@@ -218,6 +308,14 @@
                         android:layout_marginStart="50dp"
 
                         android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#d3d3d3"
+                        android:layout_below="@+id/textViewDate"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"/>
                     <TextView
                         android:text="@string/date"
                         android:textSize="20sp"

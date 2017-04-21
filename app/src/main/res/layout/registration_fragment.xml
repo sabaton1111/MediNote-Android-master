@@ -48,21 +48,6 @@
             android:textAlignment="center"
             android:id="@+id/editTextDoctorName" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:inputType="number"
-            android:hint="@string/egn"
-            android:layout_below="@id/editTextDoctorName"
-            android:layout_marginTop="13dp"
-            android:ems="10"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textAlignment="center"
-            android:id="@+id/editTextDoctorNIN" />
 
         <EditText
             android:layout_width="match_parent"
@@ -72,7 +57,7 @@
             android:textColorHint="@color/hintTextColor"
             android:inputType="textPassword"
             android:hint="@string/password_reg"
-            android:layout_below="@id/editTextDoctorNIN"
+            android:layout_below="@id/editTextDoctorName"
             android:layout_marginTop="13dp"
             android:ems="10"
             android:layout_marginLeft="20dp"
