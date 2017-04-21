@@ -16,7 +16,8 @@
             android:layout_alignParentStart="true">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                >
                 <ImageView
                     android:id="@+id/background_one"
                     android:layout_width="match_parent"
@@ -25,18 +26,17 @@
                     android:layout_height="wrap_content"
                     />
 
-
                 <TextView
                     android:text="@string/create_note1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="80dp"
-                    android:textColor="@android:color/white"
-                    android:id="@+id/textView"
-                    android:textSize="24sp"
+                    android:layout_marginTop="60dp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     android:textAlignment="center"
+                    android:textColor="@android:color/white"
                     android:layout_centerHorizontal="true"/>
 
                 <EditText
@@ -44,7 +44,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextHealthFacilityCreate"
                     android:layout_below="@+id/textView"
-                    android:layout_marginTop="180dp"
+                    android:layout_marginTop="170dp"
+                    android:textColor="@color/colorPrimaryDark"
                     android:hint="@string/health_facility"
                     android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
@@ -60,49 +61,67 @@
                     android:hint="@string/student_s_first_and_last_name"
                     android:layout_below="@+id/editTextHealthFacilityCreate"
                     android:textColorHint="@color/hintTextColor"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="14dp"
                     android:theme="@style/MyEditTextTheme"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:layout_marginRight="50dp"/>
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editTextAddressCreate"
+                    android:id="@+id/editTextMENCreate"
                     android:layout_below="@+id/editTextStudentNameCreate"
-                    android:layout_marginTop="18dp"
-                    android:hint="@string/address"
+                    android:layout_marginTop="14dp"
+                    android:hint="@string/MEN"
+                    android:inputType="number"
                     android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:layout_marginRight="50dp"/>
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextAgeCreate"
-                    android:layout_below="@+id/editTextAddressCreate"
-                    android:layout_marginTop="18dp"
+                    android:layout_below="@+id/editTextMENCreate"
+                    android:layout_marginTop="14dp"
                     android:hint="@string/age"
                     android:theme="@style/MyEditTextTheme"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textColorHint="@color/hintTextColor"
                     android:layout_marginRight="50dp"/>
-
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editTextNeedsCreate"
+                    android:id="@+id/editTextDiagnoseCreate"
                     android:layout_below="@+id/editTextAgeCreate"
                     android:textColorHint="@color/hintTextColor"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="14dp"
                     android:theme="@style/MyEditTextTheme"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:hint="@string/diagnose"
+                    android:layout_marginRight="50dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextNeedsCreate"
+                    android:layout_below="@+id/editTextDiagnoseCreate"
+                    android:textColorHint="@color/hintTextColor"
+                    android:layout_marginTop="14dp"
+                    android:theme="@style/MyEditTextTheme"
+                    android:layout_marginLeft="50dp"
+                    android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:hint="@string/needs"
                     android:layout_marginRight="50dp"/>
 
@@ -112,10 +131,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextServeCreateNote"
                     android:layout_below="@+id/editTextNeedsCreate"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="14dp"
                     android:theme="@style/MyEditTextTheme"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:hint="@string/serve_to"
                     android:textColorHint="@color/hintTextColor"
                     android:layout_marginRight="50dp"/>
@@ -125,11 +145,12 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextDoctorCreateNote"
                     android:layout_below="@+id/editTextServeCreateNote"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="14dp"
                     android:textColorHint="@color/hintTextColor"
                     android:layout_marginLeft="50dp"
                     android:theme="@style/MyEditTextTheme"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:hint="@string/doctor"
                     android:layout_marginRight="50dp"/>
 
@@ -137,11 +158,12 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editTextDataCreateNote"
+                    android:id="@+id/editTextDateCreateNote"
                     android:layout_below="@+id/editTextDoctorCreateNote"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="14dp"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
+                    android:textColor="@color/colorPrimaryDark"
                     android:hint="@string/date"
                     android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
@@ -155,11 +177,11 @@
                     android:layout_marginTop="40dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button"
+                    android:id="@+id/buttonCreateNote"
                     android:layout_marginRight="25dp"
                     android:layout_marginLeft="25dp"
+                    android:layout_below="@+id/editTextDateCreateNote"
                     android:textSize="18sp"
-                    android:layout_below="@+id/editTextDataCreateNote"
                     android:layout_marginBottom="30dp" />
             </RelativeLayout>
 

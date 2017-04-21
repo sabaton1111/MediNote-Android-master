@@ -189,7 +189,7 @@
                             <EditText
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/editTextDataCreateNote"
+                                android:id="@+id/editTextDateCreateNote"
                                 android:layout_below="@+id/editTextDoctorCreateNote"
                                 android:layout_marginTop="14dp"
                                 android:layout_marginLeft="50dp"
@@ -211,7 +211,7 @@
                                 android:id="@+id/buttonCreateNote"
                                 android:layout_marginRight="25dp"
                                 android:layout_marginLeft="25dp"
-                                android:layout_below="@+id/editTextDataCreateNote"
+                                android:layout_below="@+id/editTextDateCreateNote"
                                 android:textSize="18sp"
                                 android:layout_marginBottom="30dp" />
                         </RelativeLayout>

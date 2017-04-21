@@ -22,7 +22,7 @@ public class Registration_fragment extends Fragment {
 
     Activity mActivity;
     MediNoteWebAPI mMediNoteWebAPI;
-    Button mRegisterButton;
+    Button mBtnRegister;
     EditText mEditTextName;
     EditText mEditTextUIN;
     EditText mEditTextPosition;
@@ -55,7 +55,7 @@ public class Registration_fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.registration_fragment, container, false);
 
-        mRegisterButton = (Button) view.findViewById(R.id.buttonRegisterDoctor);
+        mBtnRegister = (Button) view.findViewById(R.id.buttonRegisterDoctor);
         mEditTextName = (EditText) view.findViewById(R.id.editTextDoctorName);
         mEditTextUIN = (EditText) view.findViewById(R.id.editTextUIN);
         mEditTextPosition = (EditText) view.findViewById(R.id.editTextPosition);
@@ -66,7 +66,7 @@ public class Registration_fragment extends Fragment {
         mEditTextPassword = (EditText) view.findViewById(R.id.editTextDoctorPassword);
         mEditTextConfirmPassword = (EditText) view.findViewById(R.id.editTextDoctorPasswordRepeat);
 
-        mRegisterButton.setOnClickListener(
+        mBtnRegister.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

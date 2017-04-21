@@ -30,4 +30,7 @@ public interface MediNoteWebAPI {
 
     @GET("api/medicalnotes/{men}")
     Call<MedicalNote> getMedicalNoteByMEN(@Path("men") String men, @Header("Authorization") String token);
+
+    @POST("api/medicalnotes")
+    Call<Void> addMedicalNote(@Body MedicalNote medicalNote, @Header("Authorization") String token);
 }

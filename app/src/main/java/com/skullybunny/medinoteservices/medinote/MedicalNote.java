@@ -58,6 +58,11 @@ public class MedicalNote {
     @SerializedName("MEN")
     private String men;
 
+    public MedicalNote()
+    {
+
+    }
+
     public int getId() {
         return id;
     }
