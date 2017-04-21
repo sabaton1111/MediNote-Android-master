@@ -67,9 +67,6 @@
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
-    <string name="token_type">tokenType</string>
-    <string name="access_token">accessToken</string>
-    <string name="title_activity_navigation">Navigation</string>
 
     <string name="action_settings" translatable="false">Settings</string>
     <string name="options">Options</string>

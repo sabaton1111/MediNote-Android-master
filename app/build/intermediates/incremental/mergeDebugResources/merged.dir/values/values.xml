@@ -737,6 +737,7 @@
     <string name="login">Login</string>
     <string name="logo">Logo</string>
     <string name="logout">Log Out</string>
+    <string name="made_by">Doctor:</string>
     <string name="medical_certificate">Medical certificate</string>
     <string name="medical_check">Medical check</string>
     <string name="medicine_sister">Medicine Sister</string>
@@ -746,6 +747,7 @@
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="needs">Needs</string>
     <string name="next">Next</string>
+    <string name="nin">NIN</string>
     <string name="note">Note</string>
     <string name="options">Options</string>
     <string name="password">Password</string>
@@ -768,6 +770,7 @@
     <string name="search_menu_title">Search</string>
     <string name="send">Send</string>
     <string name="serve_to">Serve to</string>
+    <string name="serve_to1">Serve to:</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="student">Student</string>
     <string name="student_class">Class</string>
@@ -784,6 +787,7 @@
     <string name="tour_body">Tour of the body</string>
     <string name="uin">UIN</string>
     <string name="username">Username</string>
+    <string name="valid">Valid from/to:</string>
     <string name="weight">Weight</string>
     <string name="write_email">Write your email</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

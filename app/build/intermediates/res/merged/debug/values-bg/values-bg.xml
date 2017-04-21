@@ -61,6 +61,7 @@
     <string name="login">Вход</string>
     <string name="logo">Лого</string>
     <string name="logout">Изход</string>
+    <string name="made_by">Издадена от:</string>
     <string name="medical_certificate">Медицинско свидетелство</string>
     <string name="medical_check">Профилактичен преглед</string>
     <string name="medicine_sister">Медицинска сестра</string>
@@ -68,6 +69,7 @@
     <string name="name">Име</string>
     <string name="needs">Нуждае се от</string>
     <string name="next">Напред</string>
+    <string name="nin">ЕГН</string>
     <string name="note">Бележка</string>
     <string name="options">Опции</string>
     <string name="password">Парола</string>
@@ -85,6 +87,7 @@
     <string msgid="146198913615257606" name="search_menu_title">"Търсене"</string>
     <string name="send">Изпрати</string>
     <string name="serve_to">Да послужи пред</string>
+    <string name="serve_to1">Да послужи пред:</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="student">Ученик</string>
     <string name="student_class">Клас</string>
@@ -98,6 +101,7 @@
     <string name="tour_body">Обиколка на тялото</string>
     <string name="uin">УИН</string>
     <string name="username">Потребителско име</string>
+    <string name="valid">Валидна от/до:</string>
     <string name="weight">Тегло</string>
     <string name="write_email">Имейл</string>
 </resources>

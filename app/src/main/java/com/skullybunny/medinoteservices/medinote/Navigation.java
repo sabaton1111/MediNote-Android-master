@@ -43,7 +43,7 @@ public class Navigation extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -93,7 +93,7 @@ public class Navigation extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             Fragment homeFragment;
-            homeFragment = new StudentFragment();
+            homeFragment = new Main_fragment();
             ChangeFragment(homeFragment, true);
         } else if (id == R.id.nav_register_student) {
             Fragment registerStudentFragment = new StudentRegistrationFragment();

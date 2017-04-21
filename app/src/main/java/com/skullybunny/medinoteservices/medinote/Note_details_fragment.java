@@ -1,5 +1,6 @@
 package com.skullybunny.medinoteservices.medinote;
 
+import android.animation.ValueAnimator;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.provider.ContactsContract;
@@ -7,6 +8,8 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.LinearInterpolator;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -40,6 +43,26 @@ public class Note_details_fragment extends Fragment {
         View view = inflater.inflate(R.layout.note_details_fragment, container, false);
         initializeViews(view);
         fillMedicalNoteData();
+
+        final ImageView backgroundOne = (ImageView) view.findViewById(R.id.background_one);
+        final ImageView backgroundTwo = (ImageView) view.findViewById(R.id.background_two);
+
+        final ValueAnimator animator = ValueAnimator.ofFloat(0.0f, 1.0f);
+        animator.setRepeatCount(ValueAnimator.INFINITE);
+        animator.setInterpolator(new LinearInterpolator());
+        animator.setDuration(10000L);
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                final float progress = (float) animation.getAnimatedValue();
+                final float width = backgroundOne.getWidth();
+                final float translationX = width * progress;
+                backgroundOne.setTranslationX(translationX);
+                backgroundTwo.setTranslationX(translationX - width);
+            }
+        });
+        animator.start();
+
         return view;
     }
 
@@ -53,8 +76,8 @@ public class Note_details_fragment extends Fragment {
         mTextViewServe = (TextView) view.findViewById(R.id.textViewServe);
         mTextViewDoctor = (TextView) view.findViewById(R.id.textViewDoctor);
         mTextViewDate = (TextView) view.findViewById(R.id.textViewDate);
-        mTextViewMEN = (TextView) view.findViewById(R.id.textViewMEN);
-        mTextViewDiagnose = (TextView) view.findViewById(R.id.textViewDiagnose);
+        // mTextViewMEN = (TextView) view.findViewById(R.id.textViewMEN);
+        // mTextViewDiagnose = (TextView) view.findViewById(R.id.textViewDiagnose);
     }
 
     private void fillMedicalNoteData()
@@ -67,7 +90,7 @@ public class Note_details_fragment extends Fragment {
         mTextViewServe.setText(medicalNote.getInstitutionName());
         mTextViewDoctor.setText(medicalNote.getDoctorName());
         mTextViewDate.setText(medicalNote.getVisitDate());
-        mTextViewMEN.setText(medicalNote.getMen());
-        mTextViewDiagnose.setText(medicalNote.getDiagnose());
+       // mTextViewMEN.setText(medicalNote.getMen());
+       // mTextViewDiagnose.setText(medicalNote.getDiagnose());
     }
 }
