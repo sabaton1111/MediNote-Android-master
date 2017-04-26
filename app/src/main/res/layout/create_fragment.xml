@@ -21,8 +21,9 @@
                 <ImageView
                     android:id="@+id/background_one"
                     android:layout_width="match_parent"
-                    android:layout_marginTop="-150dp"
-                    android:src="@mipmap/blue"
+                    android:scaleType="fitStart"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/back_check1"
                     android:layout_height="wrap_content"
                     />
 
