@@ -26,6 +26,7 @@ public class CurrentUser {
         SharedPreferences sharedPreferences = context.getSharedPreferences(context.getString(R.string.token_file_name), Context.MODE_PRIVATE);
         String tokenType = sharedPreferences.getString(context.getString(R.string.token_type), null);
         String accessToken = sharedPreferences.getString(context.getString(R.string.access_token), null);
+        String accountType = sharedPreferences.getString("accountType", null);
 
         if (accessToken == null || tokenType == null)
         {
@@ -35,6 +36,7 @@ public class CurrentUser {
         ApplicationUser appUser = new ApplicationUser();
         OAuthToken token = new OAuthToken(accessToken, tokenType);
         appUser.setToken(token);
+        appUser.setAccountType(accountType);
         setUser(context, appUser);
         return true;
     }
@@ -45,6 +47,7 @@ public class CurrentUser {
 
         sharedPreferencesEditor.remove(context.getString(R.string.access_token));
         sharedPreferencesEditor.remove(context.getString(R.string.token_type));
+        sharedPreferencesEditor.remove("accountType");
 
         sharedPreferencesEditor.apply();
 
@@ -57,9 +60,11 @@ public class CurrentUser {
                 context.getString(R.string.token_file_name), Context.MODE_PRIVATE).edit();
 
         OAuthToken token = getUser().getToken();
+        String accountType = getUser().getAccountType();
 
         sharedPreferencesEditor.putString(context.getString(R.string.access_token), token.getAccessToken());
         sharedPreferencesEditor.putString(context.getString(R.string.token_type), token.getTokenType());
+        sharedPreferencesEditor.putString("accountType", accountType);
 
         sharedPreferencesEditor.apply();
     }

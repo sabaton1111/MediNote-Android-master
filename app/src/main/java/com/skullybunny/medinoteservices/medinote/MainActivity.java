@@ -1,19 +1,19 @@
 package com.skullybunny.medinoteservices.medinote;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     SharedPreferences mSharedPreferences;
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container_home, fragment);
+        fragmentTransaction.replace(R.id.container, fragment);
         if (addReverseTransaction)
         {
             fragmentTransaction.addToBackStack(null);
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     {
         if (!CurrentUser.initialize(this))
         {
-            ChangeFragment(new Login_fragment(), false);
+            ChangeFragment(new LoginFragment(), false);
         }
         else
         {

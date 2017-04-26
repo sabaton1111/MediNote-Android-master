@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.skullybunny.medinoteservices.medinote.BaseFragment;
 import com.skullybunny.medinoteservices.medinote.CurrentUser;
 import com.skullybunny.medinoteservices.medinote.MediNoteWeb;
 import com.skullybunny.medinoteservices.medinote.MediNoteWebAPI;
@@ -26,29 +27,17 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
-public class StudentRegistrationFragment extends Fragment {
-    Activity mActivity;
+public class StudentRegistrationFragment extends BaseFragment {
     MediNoteWebAPI mMediNoteWebAPI;
     Button mBtnRegister;
     EditText mEditTextName;
     EditText mEditTextAge;
     EditText mEditTextAddress;
     EditText mEditTextNIN;
-    private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
-    {
-        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container, fragment);
-        if (addReverseTransaction)
-        {
-            fragmentTransaction.addToBackStack(null);
-        }
-        fragmentTransaction.commit();
-    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mActivity = getActivity();
         mMediNoteWebAPI = MediNoteWeb.getWebAPIInstance();
     }
 
@@ -89,7 +78,6 @@ public class StudentRegistrationFragment extends Fragment {
                 if (response.isSuccessful())
                 {
                     Toast.makeText(mActivity, "Student registered successfully", Toast.LENGTH_SHORT).show();
-                    ChangeFragment(new StudentFragment(), true);
                 }
                 else
                 {

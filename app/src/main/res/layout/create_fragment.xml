@@ -32,7 +32,7 @@
                     android:id="@+id/textView"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="45dp"
                     android:textSize="30sp"
                     android:textStyle="bold"
                     android:textAlignment="center"
@@ -42,11 +42,11 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editTextHealthFacilityCreate"
+                    android:id="@+id/editTextDoctorsNIN"
                     android:layout_below="@+id/textView"
-                    android:layout_marginTop="170dp"
+                    android:layout_marginTop="185dp"
                     android:textColor="@color/colorPrimaryDark"
-                    android:hint="@string/health_facility"
+                    android:hint="@string/doctors_nin"
                     android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
                     android:layout_marginLeft="50dp"
@@ -57,9 +57,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editTextStudentNameCreate"
-                    android:hint="@string/student_s_first_and_last_name"
-                    android:layout_below="@+id/editTextHealthFacilityCreate"
+                    android:id="@+id/editTextStudentsNIN"
+                    android:hint="@string/students_nin"
+                    android:layout_below="@+id/editTextDoctorsNIN"
                     android:textColorHint="@color/hintTextColor"
                     android:layout_marginTop="14dp"
                     android:theme="@style/MyEditTextTheme"
@@ -72,7 +72,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextMENCreate"
-                    android:layout_below="@+id/editTextStudentNameCreate"
+                    android:layout_below="@+id/editTextStudentsNIN"
                     android:layout_marginTop="14dp"
                     android:hint="@string/MEN"
                     android:inputType="number"
@@ -83,25 +83,12 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginRight="50dp"/>
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/editTextAgeCreate"
-                    android:layout_below="@+id/editTextMENCreate"
-                    android:layout_marginTop="14dp"
-                    android:hint="@string/age"
-                    android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textColorHint="@color/hintTextColor"
-                    android:layout_marginRight="50dp"/>
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextDiagnoseCreate"
-                    android:layout_below="@+id/editTextAgeCreate"
+                    android:layout_below="@+id/editTextMENCreate"
                     android:textColorHint="@color/hintTextColor"
                     android:layout_marginTop="14dp"
                     android:theme="@style/MyEditTextTheme"
@@ -140,26 +127,12 @@
                     android:textColorHint="@color/hintTextColor"
                     android:layout_marginRight="50dp"/>
 
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editTextDoctorCreateNote"
+                    android:id="@+id/editTextDataCreateNote"
                     android:layout_below="@+id/editTextServeCreateNote"
-                    android:layout_marginTop="14dp"
-                    android:textColorHint="@color/hintTextColor"
-                    android:layout_marginLeft="50dp"
-                    android:theme="@style/MyEditTextTheme"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:hint="@string/doctor"
-                    android:layout_marginRight="50dp"/>
-
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/editTextDateCreateNote"
-                    android:layout_below="@+id/editTextDoctorCreateNote"
                     android:layout_marginTop="14dp"
                     android:layout_marginLeft="50dp"
                     android:ems="10"
@@ -180,7 +153,7 @@
                     android:id="@+id/buttonCreateNote"
                     android:layout_marginRight="25dp"
                     android:layout_marginLeft="25dp"
-                    android:layout_below="@+id/editTextDateCreateNote"
+                    android:layout_below="@+id/editTextDataCreateNote"
                     android:textSize="18sp"
                     android:layout_marginBottom="30dp" />
             </RelativeLayout>

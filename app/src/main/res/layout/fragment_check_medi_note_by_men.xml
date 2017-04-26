@@ -19,7 +19,7 @@
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="80dp" />
 
 
         <EditText
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_below="@+id/enter_nin"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="170dp"
             android:hint="@string/enter_medical_note_men"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryDark"

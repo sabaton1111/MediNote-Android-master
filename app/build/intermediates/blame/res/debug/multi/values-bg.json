@@ -748,8 +748,27 @@
                     "startLine": 41,
                     "startColumn": 4,
                     "startOffset": 3493,
+                    "endColumn": 43,
+                    "endOffset": 3532
+                },
+                "from": {
+                    "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4915,
+                        "endColumn": 43,
+                        "endOffset": 4954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3537,
                     "endColumn": 45,
-                    "endOffset": 3534
+                    "endOffset": 3578
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -764,11 +783,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3539,
+                    "startOffset": 3583,
                     "endColumn": 56,
-                    "endOffset": 3591
+                    "endOffset": 3635
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -783,11 +802,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3596,
+                    "startOffset": 3640,
                     "endColumn": 40,
-                    "endOffset": 3632
+                    "endOffset": 3676
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -802,11 +821,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3637,
+                    "startOffset": 3681,
                     "endColumn": 45,
-                    "endOffset": 3678
+                    "endOffset": 3722
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -821,11 +840,30 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3683,
+                    "startOffset": 3727,
+                    "endColumn": 52,
+                    "endOffset": 3775
+                },
+                "from": {
+                    "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 4960,
+                        "endColumn": 52,
+                        "endOffset": 5008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3780,
                     "endColumn": 64,
-                    "endOffset": 3743
+                    "endOffset": 3840
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -840,11 +878,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3748,
+                    "startOffset": 3845,
                     "endColumn": 42,
-                    "endOffset": 3786
+                    "endOffset": 3883
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -859,11 +897,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 3791,
+                    "startOffset": 3888,
                     "endColumn": 35,
-                    "endOffset": 3822
+                    "endOffset": 3919
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -878,11 +916,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 3827,
+                    "startOffset": 3924,
                     "endColumn": 39,
-                    "endOffset": 3862
+                    "endOffset": 3959
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -897,11 +935,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 3867,
+                    "startOffset": 3964,
                     "endColumn": 84,
-                    "endOffset": 3947
+                    "endOffset": 4044
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -916,11 +954,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3952,
+                    "startOffset": 4049,
                     "endColumn": 71,
-                    "endOffset": 4019
+                    "endOffset": 4116
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -935,11 +973,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 4024,
+                    "startOffset": 4121,
                     "endColumn": 55,
-                    "endOffset": 4075
+                    "endOffset": 4172
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -954,11 +992,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 4080,
+                    "startOffset": 4177,
                     "endColumn": 42,
-                    "endOffset": 4118
+                    "endOffset": 4215
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -973,11 +1011,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 4123,
+                    "startOffset": 4220,
                     "endColumn": 66,
-                    "endOffset": 4185
+                    "endOffset": 4282
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -992,11 +1030,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 4190,
+                    "startOffset": 4287,
                     "endColumn": 74,
-                    "endOffset": 4260
+                    "endOffset": 4357
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1011,11 +1049,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 4265,
+                    "startOffset": 4362,
                     "endColumn": 61,
-                    "endOffset": 4322
+                    "endOffset": 4419
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1030,11 +1068,11 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4327,
+                    "startOffset": 4424,
                     "endColumn": 39,
-                    "endOffset": 4362
+                    "endOffset": 4459
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1049,11 +1087,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 4367,
+                    "startOffset": 4464,
                     "endColumn": 39,
-                    "endOffset": 4402
+                    "endOffset": 4499
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1068,11 +1106,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 4407,
+                    "startOffset": 4504,
                     "endColumn": 50,
-                    "endOffset": 4453
+                    "endOffset": 4550
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1087,11 +1125,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4458,
+                    "startOffset": 4555,
                     "endColumn": 45,
-                    "endOffset": 4499
+                    "endOffset": 4596
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1106,11 +1144,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 4504,
+                    "startOffset": 4601,
                     "endColumn": 38,
-                    "endOffset": 4538
+                    "endOffset": 4635
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1125,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 4543,
+                    "startOffset": 4640,
                     "endColumn": 37,
-                    "endOffset": 4576
+                    "endOffset": 4673
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1144,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 4581,
+                    "startOffset": 4678,
                     "endColumn": 40,
-                    "endOffset": 4617
+                    "endOffset": 4714
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1163,11 +1201,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 4622,
+                    "startOffset": 4719,
                     "endColumn": 48,
-                    "endOffset": 4666
+                    "endOffset": 4763
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1182,11 +1220,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 4671,
+                    "startOffset": 4768,
                     "endColumn": 71,
-                    "endOffset": 4738
+                    "endOffset": 4835
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1201,11 +1239,11 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 4743,
+                    "startOffset": 4840,
                     "endColumn": 63,
-                    "endOffset": 4802
+                    "endOffset": 4899
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1220,11 +1258,11 @@
             },
             {
                 "to": {
-                    "startLine": 66,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 4807,
+                    "startOffset": 4904,
                     "endColumn": 61,
-                    "endOffset": 4864
+                    "endOffset": 4961
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1239,11 +1277,11 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 4869,
+                    "startOffset": 4966,
                     "endColumn": 89,
-                    "endOffset": 4954
+                    "endOffset": 5051
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1258,11 +1296,11 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 4959,
+                    "startOffset": 5056,
                     "endColumn": 36,
-                    "endOffset": 4991
+                    "endOffset": 5088
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1277,11 +1315,11 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 4996,
+                    "startOffset": 5093,
                     "endColumn": 46,
-                    "endOffset": 5038
+                    "endOffset": 5135
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1296,11 +1334,11 @@
             },
             {
                 "to": {
-                    "startLine": 70,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 5043,
+                    "startOffset": 5140,
                     "endColumn": 39,
-                    "endOffset": 5078
+                    "endOffset": 5175
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1315,11 +1353,11 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 5083,
+                    "startOffset": 5180,
                     "endColumn": 35,
-                    "endOffset": 5114
+                    "endOffset": 5211
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1334,11 +1372,11 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 5119,
+                    "startOffset": 5216,
                     "endColumn": 40,
-                    "endOffset": 5155
+                    "endOffset": 5252
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1353,11 +1391,11 @@
             },
             {
                 "to": {
-                    "startLine": 73,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 5160,
+                    "startOffset": 5257,
                     "endColumn": 41,
-                    "endOffset": 5197
+                    "endOffset": 5294
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1372,11 +1410,11 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 5202,
+                    "startOffset": 5299,
                     "endColumn": 43,
-                    "endOffset": 5241
+                    "endOffset": 5338
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1391,11 +1429,11 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 5246,
+                    "startOffset": 5343,
                     "endColumn": 47,
-                    "endOffset": 5289
+                    "endOffset": 5386
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1410,11 +1448,11 @@
             },
             {
                 "to": {
-                    "startLine": 76,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 5294,
+                    "startOffset": 5391,
                     "endColumn": 56,
-                    "endOffset": 5346
+                    "endOffset": 5443
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1429,11 +1467,11 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 5351,
+                    "startOffset": 5448,
                     "endColumn": 44,
-                    "endOffset": 5391
+                    "endOffset": 5488
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1448,11 +1486,11 @@
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 5396,
+                    "startOffset": 5493,
                     "endColumn": 48,
-                    "endOffset": 5440
+                    "endOffset": 5537
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1467,11 +1505,11 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 5445,
+                    "startOffset": 5542,
                     "endColumn": 48,
-                    "endOffset": 5489
+                    "endOffset": 5586
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1486,11 +1524,11 @@
             },
             {
                 "to": {
-                    "startLine": 80,
+                    "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 5494,
+                    "startOffset": 5591,
                     "endColumn": 66,
-                    "endOffset": 5556
+                    "endOffset": 5653
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1505,11 +1543,11 @@
             },
             {
                 "to": {
-                    "startLine": 81,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 5561,
+                    "startOffset": 5658,
                     "endColumn": 62,
-                    "endOffset": 5619
+                    "endOffset": 5716
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1524,11 +1562,11 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 5624,
+                    "startOffset": 5721,
                     "endColumn": 67,
-                    "endOffset": 5687
+                    "endOffset": 5784
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1543,11 +1581,11 @@
             },
             {
                 "to": {
-                    "startLine": 83,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 5692,
+                    "startOffset": 5789,
                     "endColumn": 61,
-                    "endOffset": 5749
+                    "endOffset": 5846
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1562,11 +1600,11 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 5754,
+                    "startOffset": 5851,
                     "endColumn": 62,
-                    "endOffset": 5812
+                    "endOffset": 5909
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1581,11 +1619,11 @@
             },
             {
                 "to": {
-                    "startLine": 85,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 5817,
+                    "startOffset": 5914,
                     "endColumn": 42,
-                    "endOffset": 5855
+                    "endOffset": 5952
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1600,11 +1638,11 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 5860,
+                    "startOffset": 5957,
                     "endColumn": 82,
-                    "endOffset": 5938
+                    "endOffset": 6035
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\values-bg\\values-bg.xml",
@@ -1619,11 +1657,11 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 5943,
+                    "startOffset": 6040,
                     "endColumn": 40,
-                    "endOffset": 5979
+                    "endOffset": 6076
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1638,11 +1676,11 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 5984,
+                    "startOffset": 6081,
                     "endColumn": 52,
-                    "endOffset": 6032
+                    "endOffset": 6129
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1657,11 +1695,11 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 6037,
+                    "startOffset": 6134,
                     "endColumn": 54,
-                    "endOffset": 6087
+                    "endOffset": 6184
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1676,11 +1714,11 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 6092,
+                    "startOffset": 6189,
                     "endColumn": 100,
-                    "endOffset": 6188
+                    "endOffset": 6285
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\values-bg\\values-bg.xml",
@@ -1695,11 +1733,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 6193,
+                    "startOffset": 6290,
                     "endColumn": 42,
-                    "endOffset": 6231
+                    "endOffset": 6328
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1714,11 +1752,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 6236,
+                    "startOffset": 6333,
                     "endColumn": 46,
-                    "endOffset": 6278
+                    "endOffset": 6375
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1733,11 +1771,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 6283,
+                    "startOffset": 6380,
                     "endColumn": 70,
-                    "endOffset": 6349
+                    "endOffset": 6446
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1752,11 +1790,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 6354,
+                    "startOffset": 6451,
                     "endColumn": 82,
-                    "endOffset": 6432
+                    "endOffset": 6529
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1771,11 +1809,30 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 6437,
+                    "startOffset": 6534,
+                    "endColumn": 55,
+                    "endOffset": 6585
+                },
+                "from": {
+                    "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 5014,
+                        "endColumn": 55,
+                        "endOffset": 5065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 6590,
                     "endColumn": 40,
-                    "endOffset": 6473
+                    "endOffset": 6626
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1790,11 +1847,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 6478,
+                    "startOffset": 6631,
                     "endColumn": 42,
-                    "endOffset": 6516
+                    "endOffset": 6669
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1809,11 +1866,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 6521,
+                    "startOffset": 6674,
                     "endColumn": 70,
-                    "endOffset": 6587
+                    "endOffset": 6740
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1828,11 +1885,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 6592,
+                    "startOffset": 6745,
                     "endColumn": 65,
-                    "endOffset": 6653
+                    "endOffset": 6806
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1847,11 +1904,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 6658,
+                    "startOffset": 6811,
                     "endColumn": 62,
-                    "endOffset": 6716
+                    "endOffset": 6869
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1866,11 +1923,11 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 6721,
+                    "startOffset": 6874,
                     "endColumn": 56,
-                    "endOffset": 6773
+                    "endOffset": 6926
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1885,11 +1942,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 6778,
+                    "startOffset": 6931,
                     "endColumn": 35,
-                    "endOffset": 6809
+                    "endOffset": 6962
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1904,11 +1961,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 6814,
+                    "startOffset": 6967,
                     "endColumn": 54,
-                    "endOffset": 6864
+                    "endOffset": 7017
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1923,11 +1980,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 6869,
+                    "startOffset": 7022,
                     "endColumn": 48,
-                    "endOffset": 6913
+                    "endOffset": 7066
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1942,11 +1999,11 @@
             },
             {
                 "to": {
-                    "startLine": 104,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 6918,
+                    "startOffset": 7071,
                     "endColumn": 40,
-                    "endOffset": 6954
+                    "endOffset": 7107
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",
@@ -1961,11 +2018,11 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 6959,
+                    "startOffset": 7112,
                     "endColumn": 45,
-                    "endOffset": 7000
+                    "endOffset": 7153
                 },
                 "from": {
                     "file": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\values-bg\\strings.xml",

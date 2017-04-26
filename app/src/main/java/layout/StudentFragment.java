@@ -17,7 +17,7 @@ public class StudentFragment extends Fragment {
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container_home, fragment);
+        fragmentTransaction.replace(R.id.container, fragment);
         if (addReverseTransaction)
         {
             fragmentTransaction.addToBackStack(null);

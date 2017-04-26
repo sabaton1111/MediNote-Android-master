@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:3:5-56
 		INJECTED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support:design:25.2.0] C:\Users\Martin\.android\build-cache\a12e10154f1a4b724f22807891472570e28423bf\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Martin\.android\build-cache\6af25eac767656bdb6d216a7f61e57a11d4fb767\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Martin\.android\build-cache\42d32c3f3aa4715400b1c41d83b9d448694a3b66\output\AndroidManifest.xml:22:5-20
@@ -31,38 +31,40 @@ MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Martin\.androi
 MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Martin\.android\build-cache\cbfd23291adc49bb4c3316436afe58a90838d119\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Martin\.android\build-cache\3ecc16f74e7e8e1735ef7dc0ba8dccc0967033b8\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Martin\.android\build-cache\22b2bc5e0f7c20f95aa6ec02fe174a02a9ead43a\output\AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:8:9-45
 	android:label
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:9:9-45
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:10:9-45
 	android:theme
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.skullybunny.medinoteservices.medinote.MainActivity
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:13:19-88
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:14:19-88
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.skullybunny.medinoteservices.medinote.Navigation
-ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:20:9-23:47
+ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:21:9-24:47
 	android:label
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:22:13-30
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:23:13-30
 	android:theme
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:23:13-44
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:24:13-44
 	android:name
-		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:21:13-80
+		ADDED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml:22:13-80
 uses-sdk
 INJECTED from C:\Users\Martin\Desktop\MediNote-Production-Release\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.2.0] C:\Users\Martin\.android\build-cache\a12e10154f1a4b724f22807891472570e28423bf\output\AndroidManifest.xml:21:5-23:62

@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\mipmap\\register_form4.jpg"
     },
     {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\blue.png",
+        "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\mipmap\\blue.png"
+    },
+    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\white_back.png",
         "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\mipmap\\white_back.png"
     },

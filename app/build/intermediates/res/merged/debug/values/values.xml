@@ -714,10 +714,12 @@
     <string name="created_on">Created on (date)</string>
     <string name="date">Date</string>
     <string name="date_of_birth">Date of birth</string>
+    <string name="details">Note details</string>
     <string name="diagnose">Diagnose</string>
     <string name="doc_reg">Doctor registration</string>
     <string name="doctor">Doctor</string>
     <string name="doctor_s_name">Doctor\'s name</string>
+    <string name="doctors_nin">Doctor\'s NIN</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="drug">Drug</string>
     <string name="egn">EGN</string>
@@ -776,6 +778,7 @@
     <string name="student_class">Class</string>
     <string name="student_registration">Student registration</string>
     <string name="student_s_first_and_last_name">Student\'s first and last name</string>
+    <string name="students_nin">Student\'s NIN</string>
     <string name="subject">Subject</string>
     <string name="teacher">Teacher</string>
     <string name="teacher_registration">Teacher registration</string>

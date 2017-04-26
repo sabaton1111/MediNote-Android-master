@@ -10,14 +10,14 @@ import android.widget.Button;
 import android.widget.RadioButton;
 
 import com.skullybunny.medinoteservices.medinote.R;
-import com.skullybunny.medinoteservices.medinote.Registration_fragment;
+import com.skullybunny.medinoteservices.medinote.DoctorRegistrationFragment;
 
 public class StartFragment extends Fragment {
 
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container_home, fragment);
+        fragmentTransaction.replace(R.id.container, fragment);
         if (addReverseTransaction)
         {
             fragmentTransaction.addToBackStack(null);
@@ -39,15 +39,15 @@ public class StartFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 if (radioBtnDoctor.isChecked()) {
-                    ChangeFragment(new Registration_fragment(), true);
+                    ChangeFragment(new DoctorRegistrationFragment(), true);
                 }
                 else {
                     ChangeFragment(new StudentRegistrationFragment(), true);
                 }
                 // } else if (teacher.isChecked()) {
-                //    ChangeFragment(new layout.TeacherRegistrationFragment(), true);
+                //    changeFragment(new layout.TeacherRegistrationFragment(), true);
                 // } else if(medicine_sister.isChecked()) {
-                // ChangeFragment(new layout.MedicineSisterRegistrationFragment(), true);
+                // changeFragment(new layout.MedicineSisterRegistrationFragment(), true);
 
             }
         });

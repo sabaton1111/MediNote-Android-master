@@ -1,15 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_fragment.xml",
-        "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\layout\\main_fragment.xml"
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\a12e10154f1a4b724f22807891472570e28423bf\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -62,10 +58,6 @@
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_details_fragment.xml",
         "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\layout\\note_details_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\check_fragment.xml",
-        "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\layout\\check_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -148,12 +140,12 @@
         "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\layout\\fragment_start.xml"
     },
     {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\a12e10154f1a4b724f22807891472570e28423bf\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",

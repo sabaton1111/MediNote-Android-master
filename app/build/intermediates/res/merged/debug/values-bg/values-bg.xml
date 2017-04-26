@@ -39,10 +39,12 @@
     <string name="created_on">Създадена на</string>
     <string name="date">Дата</string>
     <string name="date_of_birth">Дата на раждане</string>
+    <string name="details">Детайли</string>
     <string name="diagnose">Диагноза</string>
     <string name="doc_reg">Регистрация на лекар</string>
     <string name="doctor">Лекар</string>
     <string name="doctor_s_name">Име</string>
+    <string name="doctors_nin">ЕГН на лекар</string>
     <string name="don_t_have_an_account">Нямате акаунт?</string>
     <string name="drug">Лекарство</string>
     <string name="egn">ЕГН</string>
@@ -93,6 +95,7 @@
     <string name="student_class">Клас</string>
     <string name="student_registration">Регистрация на ученик</string>
     <string name="student_s_first_and_last_name">Име и фамилия на ученика</string>
+    <string name="students_nin">ЕГН на ученика</string>
     <string name="subject">Тема</string>
     <string name="teacher">Учител</string>
     <string name="teacher_registration">Регистрация на учител</string>

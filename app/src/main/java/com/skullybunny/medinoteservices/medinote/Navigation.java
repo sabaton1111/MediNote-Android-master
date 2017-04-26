@@ -10,16 +10,17 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import layout.ContactUsFragment;
 import layout.HelpFragment;
-import layout.StudentFragment;
 import layout.StudentRegistrationFragment;
-import layout.CheckMediNoteByMENFragment;
+import layout.CheckMedicalNoteByMENFragment;
 
 public class Navigation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    UserType userType;
     private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
     {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
@@ -49,8 +50,30 @@ public class Navigation extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        removeNavigationMenuItemsByRights(navigationView);
+        Fragment homeFragment = getHomeFragment();
+        ChangeFragment(homeFragment, false);
+
         //Must be commented out or removed for production!!!
         //Toast.makeText(this, CurrentUser.getUser().getAuthorization(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, CurrentUser.getUser().getAccountType(), Toast.LENGTH_SHORT).show();
+    }
+
+    private void removeNavigationMenuItemsByRights(NavigationView navigationView)
+    {
+        String accountType = CurrentUser.getUser().getAccountType();
+        Menu navigationMenu = navigationView.getMenu();
+
+        if (accountType.equals("Doctor"))
+        {
+            navigationMenu.findItem(R.id.nav_register_doctor).setVisible(false);
+        }
+        else if (accountType.equals("Student"))
+        {
+            navigationMenu.findItem(R.id.nav_create_medicalnote).setVisible(false);
+            navigationMenu.findItem(R.id.nav_register_doctor).setVisible(false);
+            navigationMenu.findItem(R.id.nav_register_student).setVisible(false);
+        }
     }
 
     @Override
@@ -92,18 +115,20 @@ public class Navigation extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            Fragment homeFragment;
-            homeFragment = new Main_fragment();
+            Fragment homeFragment = getHomeFragment();
             ChangeFragment(homeFragment, true);
         } else if (id == R.id.nav_register_student) {
             Fragment registerStudentFragment = new StudentRegistrationFragment();
             ChangeFragment(registerStudentFragment, true);
         } else if(id == R.id.nav_register_doctor) {
-            Fragment registerDoctorFragment = new Registration_fragment();
+            Fragment registerDoctorFragment = new DoctorRegistrationFragment();
             ChangeFragment(registerDoctorFragment, true);
         } else if(id == R.id.nav_check_medicalnote_by_men) {
-            Fragment checkMediNoteByMENFragment = new layout.CheckMediNoteByMENFragment();
+            Fragment checkMediNoteByMENFragment = new CheckMedicalNoteByMENFragment();
             ChangeFragment(checkMediNoteByMENFragment, true);
+        } else if(id == R.id.nav_create_medicalnote) {
+            Fragment createMedicalNoteFragment = new CreateMedicalNoteFragment();
+            ChangeFragment(createMedicalNoteFragment, true);
         } else if (id == R.id.nav_inf) {
             Fragment helpFragment;
             helpFragment= new HelpFragment();
@@ -119,6 +144,25 @@ public class Navigation extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private Fragment getHomeFragment()
+    {
+        String accountType = CurrentUser.getUser().getAccountType();
+        Fragment homeFragment;
+        if (accountType.equals("Admin"))
+        {
+            homeFragment = new DoctorRegistrationFragment();
+        }
+        else if (accountType.equals("Doctor"))
+        {
+            homeFragment = new CreateMedicalNoteFragment();
+        }
+        else
+        {
+            homeFragment = new CheckMedicalNoteByMENFragment();
+        }
+        return homeFragment;
     }
 
     public void logOutUser()

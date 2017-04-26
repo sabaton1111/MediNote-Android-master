@@ -6,6 +6,15 @@ package com.skullybunny.medinoteservices.medinote;
 
 public class ApplicationUser {
     private static OAuthToken mToken;
+    private String accountType;
+
+    public String getAccountType() {
+        return accountType;
+    }
+
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
 
     public ApplicationUser()
     {
