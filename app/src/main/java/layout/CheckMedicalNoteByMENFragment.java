@@ -93,6 +93,6 @@ public class CheckMedicalNoteByMENFragment extends BaseFragment {
         medicalNoteDetailsFragment.setMedicalNote(medicalNote);
         changeFragment(medicalNoteDetailsFragment, true);
 
-        
+
     }
 }

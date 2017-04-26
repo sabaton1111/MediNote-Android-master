@@ -23,6 +23,7 @@ public class LoginFragment extends BaseFragment {
 
     MediNoteWebAPI mMediNoteWebAPI;
     UserType userType;
+    String toDelete;
 
     Button mLoginButton;
     EditText mEditTextLoginUsername;
