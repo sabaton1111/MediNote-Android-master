@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:descendantFocusability="beforeDescendants"
-    android:focusableInTouchMode="true"
-    android:background="@android:color/white">
+    android:focusableInTouchMode="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="30sp"
+                    android:textSize="46sp"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
@@ -47,10 +47,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextDoctorsNIN"
                     android:layout_below="@+id/textView"
-                    android:layout_marginTop="190dp"
+                    android:layout_marginTop="380dp"
                     android:hint="@string/doctors_nin"
                     android:maxLength="10"
-                    android:theme="@style/MyEditTextTheme"
+                    android:theme="@style/MyEditTextThemeLarge"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:textColor="@color/colorPrimaryDark"/>
@@ -61,10 +61,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextStudentsNIN"
                     android:hint="@string/students_nin"
-                    android:maxLength="10"
                     android:layout_below="@+id/editTextDoctorsNIN"
                     android:layout_marginTop="15dp"
-                    android:theme="@style/MyEditTextTheme"
+                    android:maxLength="10"
+                    android:theme="@style/MyEditTextThemeLarge"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:textColor="@color/colorPrimaryDark"/>
@@ -79,10 +79,10 @@
                     android:maxLength="6"
                     android:inputType="number"
                     android:textColorHint="@color/hintTextColor"
-                    android:theme="@style/MyEditTextTheme"
+                    android:theme="@style/MyEditTextThemeLarge"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginRight="20dp"/>
 
 
                 <EditText
@@ -91,11 +91,11 @@
                     android:id="@+id/editTextDiagnoseCreate"
                     android:layout_below="@+id/editTextMENCreate"
                     android:layout_marginTop="15dp"
-                    android:theme="@style/MyEditTextTheme"
+                    android:theme="@style/MyEditTextThemeLarge"
                     android:layout_marginLeft="20dp"
                     android:hint="@string/diagnose"
-                    android:layout_marginRight="20dp"
                     android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginRight="20dp"
                     />
                 <EditText
                     android:layout_width="match_parent"
@@ -103,11 +103,11 @@
                     android:id="@+id/editTextNeedsCreate"
                     android:layout_below="@+id/editTextDiagnoseCreate"
                     android:layout_marginTop="15dp"
-                    android:theme="@style/MyEditTextTheme"
+                    android:theme="@style/MyEditTextThemeLarge"
                     android:layout_marginLeft="20dp"
                     android:hint="@string/needs"
-                    android:layout_marginRight="20dp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginRight="20dp"/>
 
 
                 <EditText
@@ -116,11 +116,11 @@
                     android:id="@+id/editTextServeCreateNote"
                     android:layout_below="@+id/editTextNeedsCreate"
                     android:layout_marginTop="15dp"
-                    android:theme="@style/MyEditTextTheme"
+                    android:theme="@style/MyEditTextThemeLarge"
                     android:layout_marginLeft="20dp"
                     android:hint="@string/serve_to"
-                    android:layout_marginRight="20dp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginRight="20dp"/>
 
 
                 <EditText
@@ -131,10 +131,10 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                     android:hint="@string/date"
-                    android:theme="@style/MyEditTextTheme"
+                    android:theme="@style/MyEditTextThemeLarge"
+                    android:textColor="@color/colorPrimaryDark"
                     android:layout_marginRight="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:layout_marginBottom="20dp" />
 
                 <Button
                     android:text="@string/create"
@@ -147,7 +147,7 @@
                     android:layout_marginRight="25dp"
                     android:layout_marginLeft="25dp"
                     android:layout_below="@+id/editTextDataCreateNote"
-                    android:textSize="16sp"
+                    android:textSize="24sp"
                     android:layout_marginBottom="30dp" />
             </RelativeLayout>
 

@@ -11,10 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.IOException;
 
+import layout.HelpFragment;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -37,7 +39,16 @@ public class LoginFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         mMediNoteWebAPI = MediNoteWeb.getWebAPIInstance();
     }
-
+    private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
+    {
+        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.container, fragment);
+        if (addReverseTransaction)
+        {
+            fragmentTransaction.addToBackStack(null);
+        }
+        fragmentTransaction.commit();
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
@@ -54,7 +65,13 @@ public class LoginFragment extends BaseFragment {
                     }
                 }
         );
-
+        ImageButton help = (ImageButton)view.findViewById(R.id.imageButtonHelp);
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ChangeFragment(new HelpFragment(), true);
+            }
+        });
         return view;
     }
 

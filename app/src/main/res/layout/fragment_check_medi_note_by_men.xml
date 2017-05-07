@@ -4,6 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:background="@mipmap/back_check1">
 
 
@@ -19,7 +21,7 @@
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="60dp" />
 
 
         <EditText
@@ -28,13 +30,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_below="@+id/enter_nin"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="200dp"
             android:maxLength="6"
             android:hint="@string/enter_medical_note_men"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:textSize="28sp"
             android:theme="@style/MyEditTextTheme" />
 
         <Button

@@ -44,10 +44,6 @@ public class StartFragment extends Fragment {
                 else {
                     ChangeFragment(new StudentRegistrationFragment(), true);
                 }
-                // } else if (teacher.isChecked()) {
-                //    changeFragment(new layout.TeacherRegistrationFragment(), true);
-                // } else if(medicine_sister.isChecked()) {
-                // changeFragment(new layout.MedicineSisterRegistrationFragment(), true);
 
             }
         });
