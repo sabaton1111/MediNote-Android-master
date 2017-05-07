@@ -2,8 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@android:color/white"
     tools:context=".fragments.ContactUsFragment">
+=======
+    android:background="#FFFFFF"
+    tools:context="layout.ContactUsFragment">
+>>>>>>> parent of 899e5e2... Organized Java files
 
     <ScrollView
         android:layout_width="fill_parent"

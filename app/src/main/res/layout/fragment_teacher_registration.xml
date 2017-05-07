@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/register_form2"
-    tools:context=".fragments.TeacherRegistrationFragment">
+    tools:context="layout.TeacherRegistrationFragment">
 
 <ScrollView
     android:layout_width="match_parent"
