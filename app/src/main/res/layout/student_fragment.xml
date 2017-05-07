@@ -41,7 +41,7 @@
                         android:contentDescription="logo"
                         android:layout_width="220dp"
                         android:layout_height="100dp"
-                        android:background="@mipmap/transparent_back"
+                        android:background="@mipmap/medinote_logo"
                         android:layout_marginTop="65dp"
                         android:id="@+id/imageViewLogo"
                         android:layout_alignParentTop="true"
