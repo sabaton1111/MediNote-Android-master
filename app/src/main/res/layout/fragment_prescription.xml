@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.PrescriptionFragment"
+    tools:context=".fragments.PrescriptionFragment"
     android:background="@mipmap/pills2">
 <ScrollView
     android:layout_width="match_parent"

@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -36,12 +44,16 @@
         "source": "C:\\Users\\Martin\\.android\\build-cache\\a12e10154f1a4b724f22807891472570e28423bf\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
@@ -58,6 +70,10 @@
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
@@ -80,8 +96,24 @@
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
@@ -96,8 +128,16 @@
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
@@ -126,6 +166,10 @@
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
@@ -164,8 +208,16 @@
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
@@ -178,6 +230,10 @@
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
