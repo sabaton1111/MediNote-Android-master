@@ -100,5 +100,6 @@
     <string name="details">Note details</string>
     <string name="doctors_nin">Doctor\'s NIN</string>
     <string name="students_nin">Student\'s NIN</string>
-    >
+    <string name="student_registered_successfully">Student registered successfully</string>
+
 </resources>

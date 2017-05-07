@@ -86,5 +86,6 @@
     <string name="details">Детайли</string>
     <string name="doctors_nin">ЕГН на лекар</string>
     <string name="students_nin">ЕГН на ученика</string>
-    >
+    <string name="student_registered_successfully">Ученикът е успешно регистриран</string>
+
 </resources>
