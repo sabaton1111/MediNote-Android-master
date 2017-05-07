@@ -35,7 +35,7 @@
     <string name="medicine_sister_registration">Регистрация на медицинска сестра</string>
     <string name="teacher_registration">Регистрация на учител</string>
     <string name="teacher_s_class">Класен ръководител на</string>
-    <string name="student_registration">Регистрация на ученик</string>
+    <string name="student_registration">Регистрация \nна ученик</string>
     <string name="first_name_and_last_name">Име и фамилия</string>
     <string name="student_class">Клас</string>
     <string name="teacher_student">Класен ръководител</string>
@@ -53,7 +53,7 @@
     <string name="height">Ръст</string>
     <string name="tour_body">Обиколка на тялото</string>
     <string name="weight">Тегло</string>
-    <string name="doc_reg">Регистрация на лекар</string>
+    <string name="doc_reg">Регистрация \nна лекар</string>
     <string name="password_reg">Парола</string>
     <string name="repeat_password">Повторете паролата</string>
     <string name="egn">ЕГН</string>
@@ -74,8 +74,8 @@
     <string name="Enter_NIN">Въведете ЕГН на ученика</string>
     <string name="phone_number">Телефонен номер</string>
     <string name="register_doctor">Регистриране на доктор</string>
-    <string name="check_medicalnote_by_men">Проверяване на медицинска бележка чрез МЕН</string>
-    <string name="create_medical_note">Създаване на медицинска бележка</string>
+    <string name="check_medicalnote_by_men">Проверка на бележка (МЕН)</string>
+    <string name="create_medical_note">Създаване на бележка</string>
     <string name="enter_medical_note_men">Въведете номер на бележката (МЕН)</string>
     <string name="diagnose">Диагноза</string>
     <string name="MEN">Номер на амбулаторен лист</string>

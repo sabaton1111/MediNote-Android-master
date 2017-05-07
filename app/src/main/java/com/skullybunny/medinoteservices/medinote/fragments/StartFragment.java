@@ -1,4 +1,4 @@
-package com.skullybunny.medinoteservices.medinote.fragments;
+package layout;
 
 import android.os.Bundle;
 import android.app.Fragment;
@@ -43,10 +43,6 @@ public class StartFragment extends Fragment {
                 else {
                     ChangeFragment(new StudentRegistrationFragment(), true);
                 }
-                // } else if (teacher.isChecked()) {
-                //    changeFragment(new com.skullybunny.medinoteservices.medinote.fragments.TeacherRegistrationFragment(), true);
-                // } else if(medicine_sister.isChecked()) {
-                // changeFragment(new com.skullybunny.medinoteservices.medinote.fragments.MedicineSisterRegistrationFragment(), true);
 
             }
         });

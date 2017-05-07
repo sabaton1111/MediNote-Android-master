@@ -3,6 +3,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:id="@+id/linear_layout"
     android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:background="#FFFFFF">
 
 
@@ -17,16 +19,10 @@
                     <ImageView
                         android:id="@+id/background_one"
                         android:layout_width="match_parent"
-                        android:layout_marginTop="-310dp"
+                        android:scaleType="fitStart"
+                        android:adjustViewBounds="true"
                         android:layout_height="match_parent"
                         android:src="@mipmap/back_check1"/>
-
-                    <ImageView
-
-                        android:id="@+id/background_two"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:src="@mipmap/white_back"/>
                     <TextView
 
                         android:text="@string/details"

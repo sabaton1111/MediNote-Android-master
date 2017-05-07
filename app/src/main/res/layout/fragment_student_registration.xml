@@ -2,7 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/register_form2"
+    android:background="@android:color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     tools:context=".fragments.StudentRegistrationFragment">
 
 <ScrollView
@@ -16,31 +18,40 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/transparent">
-
         <ImageView
-            android:id="@+id/imageViewLogo"
-            android:layout_width="220dp"
-            android:layout_height="100dp"
-            android:layout_alignParentTop="true"
+            android:id="@+id/background_one"
+            android:layout_width="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back_registration1"/>
+
+
+        <TextView
+            android:id="@+id/textViewStudentReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="65dp"
-            android:background="@mipmap/transparent_back"
-            android:contentDescription="@string/logo" />
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:text="@string/student_registration" />
+
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/MyEditTextTheme"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
             android:inputType="textPersonName"
             android:hint="@string/first_name_and_last_name"
             android:layout_below="@+id/textViewStudentReg"
-            android:layout_marginTop="28dp"
-            android:ems="10"
+            android:layout_marginTop="270dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:textAlignment="center"
-            android:id="@+id/editTextStudentName" />
+            android:id="@+id/editTextStudentName"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <EditText
             android:id="@+id/editTextStudentAge"
@@ -49,14 +60,11 @@
             android:layout_below="@id/editTextStudentName"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="13dp"
-            android:ems="10"
+            android:layout_marginTop="15dp"
             android:hint="@string/age"
             android:inputType="textPassword|number"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:theme="@style/MyEditTextTheme" />
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <EditText
             android:id="@+id/editTextStudentAddress"
@@ -65,14 +73,11 @@
             android:layout_below="@id/editTextStudentAge"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="13dp"
-            android:ems="10"
+            android:layout_marginTop="15dp"
             android:hint="@string/address"
             android:inputType="textPostalAddress"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
-            android:theme="@style/MyEditTextTheme" />
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -80,16 +85,13 @@
             android:layout_below="@id/editTextStudentAddress"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="13dp"
-            android:ems="10"
+            android:layout_marginTop="15dp"
             android:hint="@string/egn"
             android:inputType="text|number"
             android:maxLength="10"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/hintTextColor"
             android:theme="@style/MyEditTextTheme"
-            android:id="@+id/editTextStudentNIN" />
+            android:id="@+id/editTextStudentNIN"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <Button
             android:text="@string/register"
@@ -98,26 +100,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonRegisterStudent"
-            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/editTextStudentNIN"
             android:layout_marginTop="15dp"
             android:layout_marginStart="25dp"
             android:layout_marginBottom="30dp"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:layout_marginEnd="25dp" />
 
 
-        <TextView
-            android:id="@+id/textViewStudentReg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageViewLogo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="64dp"
-            android:textSize="22sp"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="@string/student_registration" />
 
 
     </RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@mipmap/back_check1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/check_note"
+        android:id="@+id/enter_nin"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" />
+
+
+    <EditText
+        android:id="@+id/check_men_editbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_nin"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:maxLength="6"
+        android:hint="@string/enter_medical_note_men"
+        android:theme="@style/MyEditTextThemeSmall"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check"
+        android:id="@+id/check_button"
+        android:background="#1C9FB5"
+        android:textSize="12sp"
+        android:layout_below="@+id/check_men_editbox"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        />
+</RelativeLayout>

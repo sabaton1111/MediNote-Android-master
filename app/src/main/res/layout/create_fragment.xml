@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:background="@android:color/white">
 
     <RelativeLayout
@@ -21,8 +23,9 @@
                 <ImageView
                     android:id="@+id/background_one"
                     android:layout_width="match_parent"
-                    android:layout_marginTop="-150dp"
-                    android:src="@mipmap/blue"
+                    android:scaleType="fitStart"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/back_check1"
                     android:layout_height="wrap_content"
                     />
 
@@ -44,14 +47,13 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextDoctorsNIN"
                     android:layout_below="@+id/textView"
-                    android:layout_marginTop="185dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginTop="190dp"
                     android:hint="@string/doctors_nin"
-                    android:textColorHint="@color/hintTextColor"
+                    android:maxLength="10"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:layout_marginRight="50dp" />
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
 
 
                 <EditText
@@ -59,29 +61,28 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextStudentsNIN"
                     android:hint="@string/students_nin"
+                    android:maxLength="10"
                     android:layout_below="@+id/editTextDoctorsNIN"
-                    android:textColorHint="@color/hintTextColor"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:layout_marginRight="50dp"/>
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextMENCreate"
                     android:layout_below="@+id/editTextStudentsNIN"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:hint="@string/MEN"
+                    android:maxLength="6"
                     android:inputType="number"
                     android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:layout_marginRight="50dp"/>
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
 
 
                 <EditText
@@ -89,28 +90,24 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextDiagnoseCreate"
                     android:layout_below="@+id/editTextMENCreate"
-                    android:textColorHint="@color/hintTextColor"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="20dp"
                     android:hint="@string/diagnose"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorPrimaryDark"
                     />
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextNeedsCreate"
                     android:layout_below="@+id/editTextDiagnoseCreate"
-                    android:textColorHint="@color/hintTextColor"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="20dp"
                     android:hint="@string/needs"
-                    android:layout_marginRight="50dp"/>
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
 
 
                 <EditText
@@ -118,14 +115,12 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextServeCreateNote"
                     android:layout_below="@+id/editTextNeedsCreate"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="20dp"
                     android:hint="@string/serve_to"
-                    android:textColorHint="@color/hintTextColor"
-                    android:layout_marginRight="50dp"/>
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
 
 
                 <EditText
@@ -133,15 +128,13 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextDataCreateNote"
                     android:layout_below="@+id/editTextServeCreateNote"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginLeft="50dp"
-                    android:ems="10"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
                     android:hint="@string/date"
-                    android:textColorHint="@color/hintTextColor"
                     android:theme="@style/MyEditTextTheme"
-                    android:layout_marginRight="50dp"
-                    android:layout_marginBottom="20dp" />
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
 
                 <Button
                     android:text="@string/create"
@@ -154,7 +147,7 @@
                     android:layout_marginRight="25dp"
                     android:layout_marginLeft="25dp"
                     android:layout_below="@+id/editTextDataCreateNote"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:layout_marginBottom="30dp" />
             </RelativeLayout>
 
