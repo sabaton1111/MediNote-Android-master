@@ -44,16 +44,16 @@
         "source": "C:\\Users\\Martin\\.android\\build-cache\\a12e10154f1a4b724f22807891472570e28423bf\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Martin\\.android\\build-cache\\62a591c544e595416056c94ab6b7e584b6aadc4a\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Martin\\.android\\build-cache\\6af25eac767656bdb6d216a7f61e57a11d4fb767\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
@@ -178,6 +178,10 @@
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_border.xml",
         "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\drawable\\edittext_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hint_color.xml",
+        "source": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\src\\main\\res\\drawable\\hint_color.xml"
     },
     {
         "merged": "C:\\Users\\Martin\\Desktop\\MediNote-Production-Release\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",

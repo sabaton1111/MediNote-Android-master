@@ -76,7 +76,7 @@
     <string name="register_doctor">Регистриране на доктор</string>
     <string name="check_medicalnote_by_men">Проверка на бележка (МЕН)</string>
     <string name="create_medical_note">Създаване на бележка</string>
-    <string name="enter_medical_note_men">Въведете номер на бележката (МЕН)</string>
+    <string name="enter_medical_note_men">Номер на амбулаторен лист</string>
     <string name="diagnose">Диагноза</string>
     <string name="MEN">Номер на амбулаторен лист</string>
     <string name="nin">ЕГН</string>
@@ -86,6 +86,40 @@
     <string name="details">Детайли</string>
     <string name="doctors_nin">ЕГН на лекар</string>
     <string name="students_nin">ЕГН на ученика</string>
-    <string name="student_registered_successfully">Ученикът е успешно регистриран</string>
+    <string name="student_registered_successfully">Ученикът е регистриран успешно</string>
+    <string name="doctor_registered_successfully">Докторът е регистриран успешно</string>
+    <string name="medical_note_added_successfully">Медицинската бележка е добавена успешно</string>
+    <string name="field_cannot_be_empty">Полето не може да бъде празно</string>
+    <string name="nin_requirements">ЕГН трябва да бъде точно 10 цифри</string>
+    <string name="name_requirements">Името и Фамилията трябва да се състоят само от букви, интервал, (\'), (.) и (,)</string>
+    <string name="age_requirements">Сигурни ли сте, че сте на толкова години?</string>
+    <string name="address_requirements">Адресът трябва да се състои само от букви, цифри, интервал, (\'), (.) и (,)</string>
+
+
+
+    <!-- Web error messages -->
+    <string name="doctor_already_exists_with_nin">Съществува лекар със същото ЕГН</string>
+    <string name="student_already_exists_with_nin">Съществува ученик със същото ЕГН</string>
+    <string name="account_already_exists_with_nin">Съществува акаунт със същото ЕГН</string>
+    <string name="medical_note_already_exists_with_this_men">Същестува медицинска бележка със същия Номер на амбулаторен лист</string>
+    <string name="medical_note_not_found_with_this_men">Не е намерена медицинска бележка с този Номер на амбулаторен лист</string>
+    <string name="problem_when_communicating_with_server">Възникна проблем при комуникацията със сървъра</string>
+
+
+    <string name="uin_requirements">УИН трябва да бъде точно 6 цифри</string>
+    <string name="position_requirements">Позицията трябва да се състои само от букви, интервал, (\'), (.) и (,)</string>
+    <string name="healthcare_facility_name_requirements">Здравното заведение трябва да се състои само от букви, цифри, интервал, (\'), (.) и (,)</string>
+    <string name="men_requirements">Номерът на амбулаторния лист трябва да бъде точно 6 цифри</string>
+    <string name="diagnose_requirements">Диагнозата трябва да се състои само от букви, цифри, интервал, (\'), (.) и (,)</string>
+    <string name="needs_requirements">Нуждае Се От трябва да се състои само от букви, цифри, интервал, (\'), (.) и (,)</string>
+    <string name="serve_to_requirements">Да Послужи Пред трябва да се състои само от букви, цифри, интервал, (\'), (.) и (,)</string>
+    <string name="date_requirements">Датата трябва да бъде в един от следните формати: <b>дд/мм/гггг</b>, <b>дд.мм.гггг</b> или <b>дд-мм-гггг</b></string>
+    <string name="email_not_valid">Имейлът не е валиден</string>
+    <string name="phone_not_valid">Телефонът не е валиден</string>
+    <string name="password_min_length_requirement">Паролата трябва да е минимум 6 символа дълга</string>
+    <string name="passwords_do_not_match">Паролите не съвпадат</string>
+
+
+    <string name="invalid_username_and_or_password">Невалидно име и/или парола</string>
 
 </resources>

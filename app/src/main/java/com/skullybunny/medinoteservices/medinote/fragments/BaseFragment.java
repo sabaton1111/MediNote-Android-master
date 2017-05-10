@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
-import com.skullybunny.medinoteservices.medinote.helpers.FragmentHelpers;
+import com.skullybunny.medinoteservices.medinote.helpers.FragmentHelper;
 import com.skullybunny.medinoteservices.medinote.R;
 
 /**
  * Created by Martin on 4/24/2017.
  */
 
-public class BaseFragment extends Fragment implements FragmentHelpers {
+public class BaseFragment extends Fragment implements FragmentHelper {
 
     protected Activity mActivity;
 

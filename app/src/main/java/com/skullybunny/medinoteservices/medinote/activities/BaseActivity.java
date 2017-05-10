@@ -4,14 +4,14 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.skullybunny.medinoteservices.medinote.helpers.FragmentHelpers;
+import com.skullybunny.medinoteservices.medinote.helpers.FragmentHelper;
 import com.skullybunny.medinoteservices.medinote.R;
 
 /**
  * Created by Martin on 4/26/2017.
  */
 
-public class BaseActivity extends AppCompatActivity implements FragmentHelpers {
+public class BaseActivity extends AppCompatActivity implements FragmentHelper {
 
     @Override
     public  void changeFragment(Fragment fragment, boolean addReverseTransaction)

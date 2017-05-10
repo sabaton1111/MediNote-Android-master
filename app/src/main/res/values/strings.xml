@@ -89,10 +89,9 @@
     <string name="register_doctor">Register doctor</string>
     <string name="check_medicalnote_by_men">Check Medical Note by MEN</string>
     <string name="create_medical_note">Create medical note</string>
-    <string name="enter_medical_note_men">Enter medical note\'s MEN</string>
+    <string name="enter_medical_note_men">Мedical examination number</string>
     <string name="diagnose">Diagnose</string>
-    <string name="MEN">MEN</string>
-
+    <string name="MEN">Medical Examination Number (MEN)</string>
     <string name="nin">NIN</string>
     <string name="made_by">Doctor:</string>
     <string name="valid">Valid from/to:</string>
@@ -101,5 +100,38 @@
     <string name="doctors_nin">Doctor\'s NIN</string>
     <string name="students_nin">Student\'s NIN</string>
     <string name="student_registered_successfully">Student registered successfully</string>
+    <string name="doctor_registered_successfully">Doctor registered successfully</string>
+    <string name="medical_note_added_successfully">Medical note added successfully</string>
+    <string name="field_cannot_be_empty">This field cannot be empty</string>
+    <string name="nin_requirements">NIN must be exactly 10 characters, numeric only</string>
+    <string name="name_requirements">First and Last name should consist only of letters, space, (\'), (.) and (,)</string>
+    <string name="age_requirements">Are you sure you are that old?</string>
+    <string name="address_requirements">Address should consist only of letters, numbers, space, (\'), (.) and (,)</string>
+
+
+
+    <!-- Web error messages -->
+    <string name="doctor_already_exists_with_nin">Doctor already exists with this NIN</string>
+    <string name="student_already_exists_with_nin">Student already exists with this NIN</string>
+    <string name="account_already_exists_with_nin">Account already exists with this NIN</string>
+    <string name="medical_note_already_exists_with_this_men">Medical note already exists with this Medical Examination Number (MEN)</string>
+    <string name="medical_note_not_found_with_this_men">Medical note not found with this Medical Examination Number (MEN)</string>
+    <string name="problem_when_communicating_with_server">There was a problem when communicating with the server</string>
+
+
+    <string name="uin_requirements">UIN must be exactly 6 characters, numeric only</string>
+    <string name="position_requirements">Position should consist only of letters, space, (\'), (.) и (,)</string>
+    <string name="healthcare_facility_name_requirements">Healthcare facility name should consist only of letters, numbers, space, (\'), (.) and (,)</string>
+    <string name="men_requirements">MEN must be exactly 6 characters, numeric only</string>
+    <string name="diagnose_requirements">Diagnose should consist only of letters, numbers, space, (\'), (.) and (,)</string>
+    <string name="needs_requirements">Needs should consist only of letters, numbers, space, (\'), (.) and (,)</string>
+    <string name="serve_to_requirements">Serve To should consist only of letters, numbers, space, (\'), (.) and (,)</string>
+    <string name="date_requirements">Date should be in one of the following formats: <b>dd/mm/yyyy</b>, <b>dd.mm.yyyy</b>, or <b>dd-mm-yyyy</b></string>
+    <string name="email_not_valid">Email is not valid</string>
+    <string name="phone_not_valid">Phone is not valid</string>
+    <string name="password_min_length_requirement">Password should be minimum 6 characters long</string>
+    <string name="passwords_do_not_match">Passwords does not match</string>
+
+    <string name="invalid_username_and_or_password">Invalid username and/or password</string>
 
 </resources>

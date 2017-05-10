@@ -34,6 +34,7 @@
             android:textColor="@color/colorAccent"
             android:textStyle="bold"
             android:text="@string/doc_reg" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,15 +77,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/MyEditTextTheme"
-            android:inputType="number"
+
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:hint="@string/nin"
+            android:inputType="number"
             android:maxLength="10"
             android:layout_below="@+id/editTextDoctorPasswordRepeat"
             android:id="@+id/editTextDoctorNIN"
             android:textColor="@color/colorPrimaryDark"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

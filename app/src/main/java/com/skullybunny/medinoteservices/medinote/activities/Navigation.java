@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.skullybunny.medinoteservices.medinote.fragments.BaseFragment;
 import com.skullybunny.medinoteservices.medinote.fragments.CreateMedicalNoteFragment;
 import com.skullybunny.medinoteservices.medinote.authenticator.CurrentUser;
 import com.skullybunny.medinoteservices.medinote.fragments.DoctorRegistrationFragment;
@@ -23,19 +24,8 @@ import com.skullybunny.medinoteservices.medinote.fragments.HelpFragment;
 import com.skullybunny.medinoteservices.medinote.fragments.StudentRegistrationFragment;
 import com.skullybunny.medinoteservices.medinote.fragments.CheckMedicalNoteByMENFragment;
 
-public class Navigation extends AppCompatActivity
+public class Navigation extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
-    private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
-    {
-        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container, fragment);
-        if (addReverseTransaction)
-        {
-            fragmentTransaction.addToBackStack(null);
-        }
-        fragmentTransaction.commit();
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +47,7 @@ public class Navigation extends AppCompatActivity
 
         removeNavigationMenuItemsByRights(navigationView);
         Fragment homeFragment = getHomeFragment();
-        ChangeFragment(homeFragment, false);
+        changeFragment(homeFragment, false);
 
         //Must be commented out or removed for production!!!
         //Toast.makeText(this, CurrentUser.getUser().getAuthorization(), Toast.LENGTH_SHORT).show();
@@ -121,27 +111,27 @@ public class Navigation extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             Fragment homeFragment = getHomeFragment();
-            ChangeFragment(homeFragment, true);
+            changeFragment(homeFragment, true);
         } else if (id == R.id.nav_register_student) {
             Fragment registerStudentFragment = new StudentRegistrationFragment();
-            ChangeFragment(registerStudentFragment, true);
+            changeFragment(registerStudentFragment, true);
         } else if(id == R.id.nav_register_doctor) {
             Fragment registerDoctorFragment = new DoctorRegistrationFragment();
-            ChangeFragment(registerDoctorFragment, true);
+            changeFragment(registerDoctorFragment, true);
         } else if(id == R.id.nav_check_medicalnote_by_men) {
             Fragment checkMediNoteByMENFragment = new CheckMedicalNoteByMENFragment();
-            ChangeFragment(checkMediNoteByMENFragment, true);
+            changeFragment(checkMediNoteByMENFragment, true);
         } else if(id == R.id.nav_create_medicalnote) {
             Fragment createMedicalNoteFragment = new CreateMedicalNoteFragment();
-            ChangeFragment(createMedicalNoteFragment, true);
+            changeFragment(createMedicalNoteFragment, true);
         } else if (id == R.id.nav_inf) {
             Fragment helpFragment;
             helpFragment= new HelpFragment();
-            ChangeFragment(helpFragment, true);
+            changeFragment(helpFragment, true);
         } else if (id == R.id.nav_contact_us) {
             Fragment contactFragment;
             contactFragment= new ContactUsFragment();
-            ChangeFragment(contactFragment, true);
+            changeFragment(contactFragment, true);
         } else if (id == R.id.nav_logout) {
             logOutUser();
         }

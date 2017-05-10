@@ -8,42 +8,69 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.mobsandgeeks.saripaar.ValidationError;
+import com.mobsandgeeks.saripaar.Validator;
+import com.mobsandgeeks.saripaar.annotation.Max;
+import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+import com.mobsandgeeks.saripaar.annotation.Pattern;
 import com.skullybunny.medinoteservices.medinote.authenticator.CurrentUser;
-import com.skullybunny.medinoteservices.medinote.helpers.EditTextHelpers;
-import com.skullybunny.medinoteservices.medinote.helpers.ToastHelpers;
-import com.skullybunny.medinoteservices.medinote.models.ModelError;
+import com.skullybunny.medinoteservices.medinote.constants.Constants;
+import com.skullybunny.medinoteservices.medinote.helpers.EditTextHelper;
+import com.skullybunny.medinoteservices.medinote.helpers.RetrofitHelper;
+import com.skullybunny.medinoteservices.medinote.helpers.ToastHelper;
+import com.skullybunny.medinoteservices.medinote.helpers.ValidationHelper;
 import com.skullybunny.medinoteservices.medinote.webdata.MediNoteWeb;
 import com.skullybunny.medinoteservices.medinote.webdata.MediNoteWebAPI;
 import com.skullybunny.medinoteservices.medinote.R;
 import com.skullybunny.medinoteservices.medinote.models.Student;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import java.util.List;
 
-import java.io.IOException;
-import java.lang.annotation.Annotation;
-
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
-import retrofit2.Converter;
 import retrofit2.Response;
 
 
 public class StudentRegistrationFragment extends BaseFragment {
+
     MediNoteWebAPI mMediNoteWebAPI;
     Button mBtnRegister;
+    Validator mValidator;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.NAME_REGEX, messageResId = R.string.name_requirements)
     EditText mEditTextName;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Max(value = 180, messageResId = R.string.age_requirements)
     EditText mEditTextAge;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.ADDRESS_REGEX, messageResId = R.string.address_requirements )
     EditText mEditTextAddress;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.NIN_REGEX, messageResId = R.string.nin_requirements)
     EditText mEditTextNIN;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mMediNoteWebAPI = MediNoteWeb.getWebAPIInstance();
+
+        mValidator = new Validator(this);
+        mValidator.setValidationListener(new Validator.ValidationListener() {
+            @Override
+            public void onValidationSucceeded() {
+                handleValidationSuccess();
+            }
+
+            @Override
+            public void onValidationFailed(List<ValidationError> errors) {
+                handleValidationFailure(errors);
+            }
+        });
     }
 
 
@@ -70,10 +97,15 @@ public class StudentRegistrationFragment extends BaseFragment {
 
     private void handleRegisterClick()
     {
-        String studentNIN = EditTextHelpers.getTrimmedTextString(mEditTextNIN);
-        int studentAge = Integer.parseInt(EditTextHelpers.getTrimmedTextString(mEditTextAge));
-        String studentAddress =  EditTextHelpers.getTrimmedTextString(mEditTextAddress);
-        String studentName =  EditTextHelpers.getTrimmedTextString(mEditTextName);
+        mValidator.validate();
+    }
+
+    private void registerStudent()
+    {
+        String studentNIN = EditTextHelper.getTrimmedTextString(mEditTextNIN);
+        int studentAge = Integer.parseInt(EditTextHelper.getTrimmedTextString(mEditTextAge));
+        String studentAddress =  EditTextHelper.getTrimmedTextString(mEditTextAddress);
+        String studentName =  EditTextHelper.getTrimmedTextString(mEditTextName);
 
         Student student = new Student(studentName, studentAge, studentAddress, studentNIN);
         Call<Void> registerStudentCall = mMediNoteWebAPI.registerStudent(student, CurrentUser.getUser().getAuthorization());
@@ -82,27 +114,11 @@ public class StudentRegistrationFragment extends BaseFragment {
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful())
                 {
-                    Toast.makeText(mActivity, "Student registered successfully", Toast.LENGTH_SHORT).show();
+                    handleSuccessfulRegistration();
                 }
                 else
                 {
-                    try {
-                        //Converter<ResponseBody, ModelError> errorConverter = MediNoteWeb.getResponseConverter(ModelError.class, new Annotation[0]);
-                        //ModelError modelError = errorConverter.convert(response.errorBody());
-                        //Toast.makeText(mActivity, modelError.getMessage() + ": " + modelError.getModelState(), Toast.LENGTH_SHORT).show();
-                        JSONObject jsonObject = new JSONObject(response.errorBody().string());
-                        Toast.makeText(mActivity, jsonObject.getString("Message") + ": " + jsonObject.getJSONObject("ModelState").getJSONArray("").get(0), Toast.LENGTH_SHORT).show();
-                        Toast.makeText(mActivity, response.code() + ": " + response.errorBody().string(), Toast.LENGTH_SHORT).show();
-
-                    }
-                    catch (IOException exception)
-                    {
-                        exception.printStackTrace();
-                    }
-                    catch (JSONException exception)
-                    {
-                        exception.printStackTrace();
-                    }
+                    handleUnsuccessfulRegistration(response);
                 }
             }
 
@@ -113,13 +129,23 @@ public class StudentRegistrationFragment extends BaseFragment {
         });
     }
 
-    private void handleSuccessfulRegister()
+    private void handleValidationSuccess()
     {
-        ToastHelpers.showToast(R.string.student_registered_successfully, mActivity);
+        registerStudent();
     }
 
-    private void handleUnsuccessfulRegister()
+    private void handleValidationFailure(List<ValidationError> errors)
     {
+        ValidationHelper.setOrShowErrors(errors, mActivity);
+    }
 
+    private void handleSuccessfulRegistration()
+    {
+        ToastHelper.showToast(R.string.student_registered_successfully, mActivity);
+    }
+
+    private void handleUnsuccessfulRegistration(Response<Void> response)
+    {
+        RetrofitHelper.showDialogFromErrorResponse(response, mActivity);
     }
 }

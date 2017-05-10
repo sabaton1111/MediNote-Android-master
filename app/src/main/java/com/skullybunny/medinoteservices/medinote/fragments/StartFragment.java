@@ -1,4 +1,4 @@
-package layout;
+package com.skullybunny.medinoteservices.medinote.fragments;
 
 import android.os.Bundle;
 import android.app.Fragment;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.RadioButton;
 
 import com.skullybunny.medinoteservices.medinote.R;
+import com.skullybunny.medinoteservices.medinote.fragments.DoctorRegistrationFragment;
+import com.skullybunny.medinoteservices.medinote.fragments.StudentRegistrationFragment;
 
 public class StartFragment extends Fragment {
 
@@ -30,7 +32,7 @@ public class StartFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_start, container, false);
 
         final RadioButton radioBtnDoctor = (RadioButton) view.findViewById(R.id.radioButtonDoctor);
-        final RadioButton radioBtnRegisterStudent = (RadioButton) view.findViewById(R.id.radioButtonDoctor);
+        final RadioButton radioBtnRegisterStudent = (RadioButton) view.findViewById(R.id.radioButtonStudent);
         //final RadioButton teacher = (RadioButton) view.findViewById(R.id.radioTeacher);
         // final RadioButton student = (RadioButton) view.findViewById(R.id.radioButtonStudent);
         Button next = (Button) view.findViewById(R.id.buttonNext);

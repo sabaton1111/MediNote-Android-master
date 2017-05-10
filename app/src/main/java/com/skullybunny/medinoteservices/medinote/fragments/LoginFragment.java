@@ -1,5 +1,7 @@
 package com.skullybunny.medinoteservices.medinote.fragments;
 
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,7 +15,8 @@ import android.widget.Toast;
 
 import com.skullybunny.medinoteservices.medinote.authenticator.ApplicationUser;
 import com.skullybunny.medinoteservices.medinote.authenticator.CurrentUser;
-import com.skullybunny.medinoteservices.medinote.helpers.EditTextHelpers;
+import com.skullybunny.medinoteservices.medinote.helpers.DialogHelper;
+import com.skullybunny.medinoteservices.medinote.helpers.EditTextHelper;
 import com.skullybunny.medinoteservices.medinote.webdata.MediNoteWeb;
 import com.skullybunny.medinoteservices.medinote.webdata.MediNoteWebAPI;
 import com.skullybunny.medinoteservices.medinote.models.OAuthToken;
@@ -23,7 +26,6 @@ import com.skullybunny.medinoteservices.medinote.activities.Navigation;
 
 import java.io.IOException;
 
-import layout.HelpFragment;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -32,7 +34,6 @@ public class LoginFragment extends BaseFragment {
 
     MediNoteWebAPI mMediNoteWebAPI;
     UserType userType;
-    String toDelete;
 
     Button mLoginButton;
     EditText mEditTextLoginUsername;
@@ -46,16 +47,7 @@ public class LoginFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         mMediNoteWebAPI = MediNoteWeb.getWebAPIInstance();
     }
-    private void ChangeFragment(Fragment fragment, boolean addReverseTransaction)
-    {
-        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container, fragment);
-        if (addReverseTransaction)
-        {
-            fragmentTransaction.addToBackStack(null);
-        }
-        fragmentTransaction.commit();
-    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
@@ -76,7 +68,7 @@ public class LoginFragment extends BaseFragment {
         help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ChangeFragment(new HelpFragment(), true);
+                changeFragment(new HelpFragment(), true);
             }
         });
         return view;
@@ -93,8 +85,8 @@ public class LoginFragment extends BaseFragment {
 
     public void handleLoginClick()
     {
-        String loginUsername =  EditTextHelpers.getTrimmedTextString(mEditTextLoginUsername);
-        String loginPassword =  EditTextHelpers.getTrimmedTextString(mEditTextLoginPassword);
+        String loginUsername =  EditTextHelper.getTrimmedTextString(mEditTextLoginUsername);
+        String loginPassword =  EditTextHelper.getTrimmedTextString(mEditTextLoginPassword);
 
         Call<OAuthToken> call = mMediNoteWebAPI.postCredentials("password", loginUsername, loginPassword);
         call.enqueue(new Callback<OAuthToken>() {
@@ -107,7 +99,7 @@ public class LoginFragment extends BaseFragment {
                 }
                 else
                 {
-                    Toast.makeText(getActivity(), response.code() + ": " + response.message(), Toast.LENGTH_SHORT).show();
+                    DialogHelper.showDialog(getString(R.string.invalid_username_and_or_password), mActivity);
                 }
             }
 

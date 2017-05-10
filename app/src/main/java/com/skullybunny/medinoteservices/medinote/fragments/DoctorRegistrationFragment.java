@@ -7,17 +7,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.mobsandgeeks.saripaar.ValidationError;
+import com.mobsandgeeks.saripaar.Validator;
+import com.mobsandgeeks.saripaar.annotation.ConfirmPassword;
+import com.mobsandgeeks.saripaar.annotation.Email;
+import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+import com.mobsandgeeks.saripaar.annotation.Password;
+import com.mobsandgeeks.saripaar.annotation.Pattern;
 import com.skullybunny.medinoteservices.medinote.authenticator.CurrentUser;
+import com.skullybunny.medinoteservices.medinote.constants.Constants;
+import com.skullybunny.medinoteservices.medinote.helpers.RetrofitHelper;
+import com.skullybunny.medinoteservices.medinote.helpers.ToastHelper;
+import com.skullybunny.medinoteservices.medinote.helpers.ValidationHelper;
 import com.skullybunny.medinoteservices.medinote.models.DoctorRegistrationDTO;
-import com.skullybunny.medinoteservices.medinote.helpers.EditTextHelpers;
-import com.skullybunny.medinoteservices.medinote.validators.NINTextValidator;
+import com.skullybunny.medinoteservices.medinote.helpers.EditTextHelper;
 import com.skullybunny.medinoteservices.medinote.webdata.MediNoteWeb;
 import com.skullybunny.medinoteservices.medinote.webdata.MediNoteWebAPI;
 import com.skullybunny.medinoteservices.medinote.R;
 
-import java.io.IOException;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -26,21 +35,60 @@ import retrofit2.Response;
 public class DoctorRegistrationFragment extends BaseFragment {
 
     MediNoteWebAPI mMediNoteWebAPI;
+    Validator mValidator;
     Button mBtnRegister;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.NAME_REGEX, messageResId = R.string.name_requirements)
     EditText mEditTextName;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.UIN_REGEX, messageResId = R.string.uin_requirements)
     EditText mEditTextUIN;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.POSITION_REGEX, messageResId = R.string.position_requirements)
     EditText mEditTextPosition;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.HEALTHCARE_FACILITY_NAME_REGEX, messageResId = R.string.healthcare_facility_name_requirements)
     EditText mEditTextHealthcareFacilityName;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Email(messageResId = R.string.email_not_valid)
     EditText mEditTextEmail;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.MOBILE_REGEX, messageResId = R.string.phone_not_valid)
     EditText mEditTextPhoneNumber;
+
+    @NotEmpty(messageResId = R.string.field_cannot_be_empty)
+    @Pattern(regex = Constants.NIN_REGEX, messageResId = R.string.nin_requirements)
     EditText mEditTextNIN;
+
+    @Password(messageResId = R.string.password_min_length_requirement)
     EditText mEditTextPassword;
+
+    @ConfirmPassword(messageResId = R.string.passwords_do_not_match)
     EditText mEditTextConfirmPassword;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mMediNoteWebAPI = MediNoteWeb.getWebAPIInstance();
+
+        mValidator = new Validator(this);
+        mValidator.setValidationListener(new Validator.ValidationListener() {
+            @Override
+            public void onValidationSucceeded() {
+                handleValidationSuccess();
+            }
+
+            @Override
+            public void onValidationFailed(List<ValidationError> errors) {
+                handleValidationFailure(errors);
+            }
+        });
     }
 
     @Override
@@ -55,8 +103,6 @@ public class DoctorRegistrationFragment extends BaseFragment {
                     }
                 }
         );
-
-        mEditTextNIN.addTextChangedListener(new NINTextValidator(getString(R.string.nin), mEditTextNIN));
 
         return view;
     }
@@ -77,35 +123,23 @@ public class DoctorRegistrationFragment extends BaseFragment {
         mEditTextConfirmPassword = (EditText) view.findViewById(R.id.editTextDoctorPasswordRepeat);
     }
 
-    private void handleRegisterClick() {
+    private void handleRegisterClick()
+    {
+        mValidator.validate();
+    }
 
-        String name = EditTextHelpers.getTrimmedTextString(mEditTextName);
-        String uin = EditTextHelpers.getTrimmedTextString(mEditTextUIN);
-        String position =  EditTextHelpers.getTrimmedTextString(mEditTextPosition);
-        String healthcareFacilityName =  EditTextHelpers.getTrimmedTextString(mEditTextHealthcareFacilityName);
-        String email =  EditTextHelpers.getTrimmedTextString(mEditTextEmail);
-        String phoneNumber =  EditTextHelpers.getTrimmedTextString(mEditTextPhoneNumber);
-        String nin =  EditTextHelpers.getTrimmedTextString(mEditTextNIN);
-        String password =  EditTextHelpers.getTrimmedTextString(mEditTextPassword);
-        String confirmPassword =  EditTextHelpers.getTrimmedTextString(mEditTextConfirmPassword);
+    private void registerDoctor()
+    {
+        String name = EditTextHelper.getTrimmedTextString(mEditTextName);
+        String uin = EditTextHelper.getTrimmedTextString(mEditTextUIN);
+        String position =  EditTextHelper.getTrimmedTextString(mEditTextPosition);
+        String healthcareFacilityName =  EditTextHelper.getTrimmedTextString(mEditTextHealthcareFacilityName);
+        String email =  EditTextHelper.getTrimmedTextString(mEditTextEmail);
+        String phoneNumber =  EditTextHelper.getTrimmedTextString(mEditTextPhoneNumber);
+        String nin =  EditTextHelper.getTrimmedTextString(mEditTextNIN);
+        String password =  EditTextHelper.getTrimmedTextString(mEditTextPassword);
+        String confirmPassword =  EditTextHelper.getTrimmedTextString(mEditTextConfirmPassword);
 
-        if (password.equals(""))
-        {
-            Toast.makeText(mActivity, "Password field is empty", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if (confirmPassword.equals(""))
-        {
-            Toast.makeText(mActivity, "ConfirmPassword field is empty", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if (!password.equals(confirmPassword))
-        {
-            Toast.makeText(mActivity, "Passwords do not match", Toast.LENGTH_SHORT).show();
-            return;
-        }
 
         DoctorRegistrationDTO doctor = new DoctorRegistrationDTO(name, position, uin,
                 healthcareFacilityName, email, phoneNumber, nin, password, confirmPassword);
@@ -114,14 +148,13 @@ public class DoctorRegistrationFragment extends BaseFragment {
         registerDoctorCall.enqueue(new Callback<Void>() {
             @Override
             public void onResponse(Call<Void> call, Response<Void> response) {
-                if (response.isSuccessful()) {
-                    Toast.makeText(mActivity, "Doctor registered successfully", Toast.LENGTH_SHORT).show();
-                } else {
-                    try {
-                        Toast.makeText(mActivity, response.code() + ": " + response.errorBody().string(), Toast.LENGTH_SHORT).show();
-                    } catch (IOException exception) {
-                        exception.printStackTrace();
-                    }
+                if (response.isSuccessful())
+                {
+                    handleSuccessfulRegistration();
+                }
+                else
+                {
+                    handleUnsuccessfulRegistration(response);
                 }
             }
 
@@ -130,5 +163,25 @@ public class DoctorRegistrationFragment extends BaseFragment {
                 throwable.printStackTrace();
             }
         });
+    }
+
+    private void handleValidationSuccess()
+    {
+        registerDoctor();
+    }
+
+    private void handleValidationFailure(List<ValidationError> errors)
+    {
+        ValidationHelper.setOrShowErrors(errors, mActivity);
+    }
+
+    private void handleSuccessfulRegistration()
+    {
+        ToastHelper.showToast(R.string.doctor_registered_successfully, mActivity);
+    }
+
+    private void handleUnsuccessfulRegistration(Response<Void> response)
+    {
+        RetrofitHelper.showDialogFromErrorResponse(response, mActivity);
     }
 }
