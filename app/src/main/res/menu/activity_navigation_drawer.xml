@@ -12,22 +12,22 @@
         <item
             android:id="@+id/nav_register_student"
             android:textColor="@color/colorPrimaryDark"
-            android:icon="@mipmap/home_icon"
+            android:icon="@mipmap/student_icon"
             android:title="@string/register_student" />
         <item
             android:id="@+id/nav_register_doctor"
             android:textColor="@color/colorPrimaryDark"
-            android:icon="@mipmap/home_icon"
+            android:icon="@mipmap/doctor_icon"
             android:title="@string/register_doctor" />
         <item
             android:id="@+id/nav_check_medicalnote_by_men"
             android:textColor="@color/colorPrimaryDark"
-            android:icon="@mipmap/home_icon"
+            android:icon="@mipmap/check1_icon"
             android:title="@string/check_medicalnote_by_men" />
         <item
             android:id="@+id/nav_create_medicalnote"
             android:textColor="@color/colorPrimaryDark"
-            android:icon="@mipmap/home_icon"
+            android:icon="@mipmap/check_icon"
             android:title="@string/create_medical_note" />
         <item
             android:id="@+id/nav_inf"
