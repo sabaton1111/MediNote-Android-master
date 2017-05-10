@@ -103,10 +103,10 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/editTextStudentNIN"
                 android:layout_marginTop="15dp"
-                android:layout_marginStart="25dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginBottom="30dp"
                 android:textSize="24sp"
-                android:layout_marginEnd="25dp" />
+                android:layout_marginEnd="50dp" />
 
 
 
